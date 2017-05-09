@@ -1,0 +1,806 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "header": {
+      "view_type": "gallery",
+      "body": {
+        "w": 0,
+        "h": 0,
+        "items": [
+          {
+            "img_url": "//i8.mifile.cn/v1/a1/12817f63-e0f3-1253-3d02-334bf19c0695.webp?bg=E3D5C2",
+            "img_url_webp": "//i8.mifile.cn/v1/a1/12817f63-e0f3-1253-3d02-334bf19c0695.webp?bg=E3D5C2",
+            "action": {
+              "type": "cate",
+              "path": "443",
+              "log_code": "31waphomegallery001001#rid=0a3494e4af30ed4066e96a0dff7467c1&t=ad&page=home&adp=212&adm=999"
+            },
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 768
+          },
+          {
+            "img_url": "//i8.mifile.cn/v1/a1/0222a9c0-e352-c6f5-42bf-48fa15ae35f9.webp?bg=23191D",
+            "img_url_webp": "//i8.mifile.cn/v1/a1/0222a9c0-e352-c6f5-42bf-48fa15ae35f9.webp?bg=23191D",
+            "action": {
+              "type": "cate",
+              "path": "420",
+              "log_code": "31waphomegallery002001#rid=e3ea09699268f84738f80b58592168d6&t=ad&page=home&adp=213&adm=1062"
+            },
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 768
+          }
+        ]
+      }
+    },
+    "sections": [
+      {
+        "view_type": "list_broadcast",
+        "body": {
+          "w": 0,
+          "h": 0,
+          "title_logo_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/846dbda81fbb2680034f44eacf665e15.jpg",
+          "items": [
+            {
+              "action": {
+                "type": "url",
+                "path": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-data-mishop/7781cc4e4216.html?2&needValidHost=false&zb_news_id=752",
+                "log_code": "31waphomelist_broadcast001002#rid=05a78c6f3d980cd8d2d51c687874ced4&t=normal&page=home"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "news_title": "送妈妈一份心意，小米母亲节特惠攻略"
+            },
+            {
+              "action": {
+                "type": "url",
+                "path": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-data-mishop/01fe76999cf7.html?2&needValidHost=false&zb_news_id=751",
+                "log_code": "31waphomelist_broadcast002002#rid=d2472b2a55ea4c1c0addfa4a8760006d&t=normal&page=home"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "news_title": "最具性价比的4+64G手机！红米4X新版首发"
+            },
+            {
+              "action": {
+                "type": "url",
+                "path": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-data-mishop/755cc7d14046.html?2&needValidHost=false&zb_news_id=749",
+                "log_code": "31waphomelist_broadcast003002#rid=fd654709b126aee4c3502aff8d5495c6&t=normal&page=home"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "news_title": "小米周报5.1-5.7一周新鲜事"
+            }
+          ]
+        },
+        "action": {
+          "type": "plugin",
+          "path": "ShopPlugin://com.xiaomi.shop.plugin.channel.ui.RootFragment?pluginId=150&forceVersion=28",
+          "log_code": "31waphomelist_broadcast000000#rid=8cdfd2a1b08da4c30ed9f0ce0d99a667&t=normal&page=home"
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#f5f5f5",
+          "line_height": "24",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#f5f5f5",
+          "line_height": "6",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "cells_auto_fill",
+        "is_show": "Y",
+        "body": {
+          "w": 720,
+          "h": 508,
+          "items": [
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/1bfb4e81-0bc6-cca8-ffeb-f164c0ce4c65.webp",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/1bfb4e81-0bc6-cca8-ffeb-f164c0ce4c65.webp",
+              "action": {
+                "type": "channel",
+                "path": "27",
+                "log_code": "31waphomecells_auto_fill001006#rid=5ed21e0b957e0afba5e6784382ffd0fd&t=ad&page=home&adp=215&adm=549"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 358,
+              "h": 508,
+              "path_type": "image"
+            },
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/4d4d4abc-2bca-9bf8-82c7-67847ac4c038.webp?bg=CBD7B8",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/4d4d4abc-2bca-9bf8-82c7-67847ac4c038.webp?bg=CBD7B8",
+              "action": {
+                "type": "channel",
+                "path": "1415",
+                "log_code": "31waphomecells_auto_fill002006#rid=e921aab7e64b36cc330fc9f5e94758cc&t=ad&page=home&adp=216&adm=1156"
+              },
+              "x": 362,
+              "y": 0,
+              "w": 358,
+              "h": 252,
+              "path_type": "image"
+            },
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/17af5e61-44e7-ad47-1228-ad0d58a11cbf.webp?bg=ABB8B6",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/17af5e61-44e7-ad47-1228-ad0d58a11cbf.webp?bg=ABB8B6",
+              "action": {
+                "type": "channel",
+                "path": "29",
+                "log_code": "31waphomecells_auto_fill003006#rid=596061ae5e1ee2d2b6bcbe052ff8b164&t=ad&page=home&adp=217&adm=1148"
+              },
+              "x": 362,
+              "y": 256,
+              "w": 358,
+              "h": 252,
+              "path_type": "image"
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#f5f5f5",
+          "line_height": "24",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "cells_auto_fill",
+        "is_show": "Y",
+        "body": {
+          "w": 720,
+          "h": 280,
+          "items": [
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/2b117b01-2823-041c-7491-952adbf41919.webp?bg=F3C9CB",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/2b117b01-2823-041c-7491-952adbf41919.webp?bg=F3C9CB",
+              "action": {
+                "type": "channel",
+                "path": "28",
+                "log_code": "31waphomecells_auto_fill001008#rid=981e638ebef82d69dd5dc70d62174134&t=ad&page=home&adp=295&adm=1091"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 720,
+              "h": 280,
+              "path_type": "image"
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#f5f5f5",
+          "line_height": "24",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "cells_auto_fill",
+        "is_show": "Y",
+        "body": {
+          "w": 720,
+          "h": 440,
+          "items": [
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/09099b3f-2a91-9d10-56c6-965956c8e00f.webp?bg=C5BDCD",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/09099b3f-2a91-9d10-56c6-965956c8e00f.webp?bg=C5BDCD",
+              "action": {
+                "type": "cate",
+                "path": "385",
+                "log_code": "31waphomecells_auto_fill001010#rid=c7b5aed3863ad1d014a7764b4d7ff595&t=ad&page=home&adp=218&adm=975"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 720,
+              "h": 440,
+              "path_type": "image"
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "stat": "3row_2col",
+        "body": {
+          "line_color": "#ffffff",
+          "line_height": "6",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "list_two_type1",
+        "stat": "3row_2col",
+        "body": {
+          "w": 0,
+          "h": 0,
+          "items": [
+            {
+              "img_url": "http://i8.mifile.cn/v1/a1/5df19755-170a-8530-ded7-140c5bb125ac.webp",
+              "action": {
+                "type": "product",
+                "path": "4481",
+                "log_code": "recom_home_9-2#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=4481",
+                "recommend_code": "recom_home_9-2#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=4481"
+              },
+              "product_name": "小米5s 64GB版",
+              "product_price": "1999",
+              "product_org_price": "1999",
+              "product_brief": "“暗夜之眼”超感光相机",
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "img_percent": 0.5
+            },
+            {
+              "img_url": "http://i8.mifile.cn/v1/a1/df54926a-f3e2-863a-48b9-c1c861a4e9de.webp",
+              "action": {
+                "type": "product",
+                "path": "5206",
+                "log_code": "recom_home_9-4#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5206",
+                "recommend_code": "recom_home_9-4#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5206"
+              },
+              "product_name": "红米Note 4X 32GB",
+              "product_price": "999",
+              "product_org_price": "999",
+              "product_brief": "多彩金属 / 超长续航",
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "img_percent": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "list_two_type1",
+        "stat": "3row_2col",
+        "body": {
+          "w": 0,
+          "h": 0,
+          "items": [
+            {
+              "img_url": "http://i8.mifile.cn/v1/a1/97c2e91e-523e-3988-3abc-aacc824f2737.webp",
+              "action": {
+                "type": "product",
+                "path": "4565",
+                "log_code": "recom_home_9-3#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=4565",
+                "recommend_code": "recom_home_9-3#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=4565"
+              },
+              "product_name": "小米手环2",
+              "product_price": "149",
+              "product_org_price": "149",
+              "product_brief": "OLED 显示屏，触摸操作",
+              "product_tag": "http://i8.mifile.cn/v1/a1/b99c10fc-8a6c-001f-5f2c-51aa65c04d9b.webp",
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "img_percent": 0.5
+            },
+            {
+              "img_url": "http://i8.mifile.cn/v1/a1/b886ebe9-055b-f2ee-765f-c8550f1e0e56.webp",
+              "action": {
+                "type": "product",
+                "path": "5349",
+                "log_code": "recom_home_9-6#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5349",
+                "recommend_code": "recom_home_9-6#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5349"
+              },
+              "product_name": "小米电视4A 49英寸",
+              "product_price": "2599",
+              "product_org_price": "2599",
+              "product_brief": "全高清HDR，超窄边框",
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "img_percent": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "list_two_type1",
+        "stat": "3row_2col",
+        "body": {
+          "w": 0,
+          "h": 0,
+          "items": [
+            {
+              "img_url": "http://i8.mifile.cn/v1/a1/f093e0a8-e3d8-4fc8-deb7-af25ea3d8663.webp",
+              "action": {
+                "type": "product",
+                "path": "5251",
+                "log_code": "recom_home_9-4#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5251",
+                "recommend_code": "recom_home_9-4#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5251"
+              },
+              "product_name": "米家行车记录仪",
+              "product_price": "349",
+              "product_org_price": "349",
+              "product_brief": "晚上也可以拍清车牌",
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "img_percent": 0.5
+            },
+            {
+              "img_url": "http://i8.mifile.cn/v1/a1/85a78a1a-ff71-dab4-8e7d-8119dfce798b.webp",
+              "action": {
+                "type": "product",
+                "path": "5296",
+                "log_code": "recom_home_9-8#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5296",
+                "recommend_code": "recom_home_9-8#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5296"
+              },
+              "product_name": "米家智能摄像机",
+              "product_price": "199",
+              "product_org_price": "199",
+              "product_brief": "随时看护家的温暖与安全",
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "img_percent": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#f5f5f5",
+          "line_height": "24",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#f5f5f5",
+          "line_height": "24",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "cells_auto_fill",
+        "is_show": "Y",
+        "body": {
+          "w": 720,
+          "h": 440,
+          "items": [
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/9a3b32fd-5459-d29b-a744-bb254b05fec9.webp?bg=EBEAEA",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/9a3b32fd-5459-d29b-a744-bb254b05fec9.webp?bg=EBEAEA",
+              "action": {
+                "type": "product",
+                "path": "5456",
+                "log_code": "31waphomecells_auto_fill001015#rid=643b7081649ab081c23ee6eb3e6ad1d4&t=ad&page=home&pid=5456&adp=231&adm=861"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 720,
+              "h": 440,
+              "path_type": "image"
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#cecece",
+          "line_height": "1",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "list_action_title",
+        "body": {
+          "w": 0,
+          "h": 0,
+          "items": [
+            {
+              "action_title": "更多新品",
+              "action": {
+                "type": "channel",
+                "path": "31",
+                "log_code": "31waphomelist_action_title001018#rid=c569c82b2ef088c83a5d566d8053712d&t=normal&page=home"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#f5f5f5",
+          "line_height": "24",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "cells_auto_fill",
+        "is_show": "Y",
+        "body": {
+          "w": 720,
+          "h": 280,
+          "items": [
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/842a7ca9-fc5e-5d6b-4560-9236ede554a6.webp?bg=A7ADC7",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/842a7ca9-fc5e-5d6b-4560-9236ede554a6.webp?bg=A7ADC7",
+              "action": {
+                "type": "channel",
+                "path": "27",
+                "log_code": "31waphomecells_auto_fill001020#rid=b7457909322efd185d07ca66ab9fd205&t=ad&page=home&adp=307&adm=1142"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 720,
+              "h": 280,
+              "path_type": "image"
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#f5f5f5",
+          "line_height": "24",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "cells_auto_fill",
+        "is_show": "Y",
+        "body": {
+          "w": 720,
+          "h": 440,
+          "items": [
+            {
+              "img_url": "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/6e80c837908e3386bae745ecdf7d9176.jpg?bg=FFFFFF",
+              "img_url_webp": "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/6e80c837908e3386bae745ecdf7d9176.jpg?bg=FFFFFF",
+              "action": {
+                "type": "product",
+                "path": "4738",
+                "log_code": "31waphomecells_auto_fill001022#rid=9753b1c842e8f6cb477eea31a645139f&t=ad&page=home&pid=4738&adp=232&adm=786"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 720,
+              "h": 440,
+              "path_type": "image"
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "stat": "three_cross",
+        "body": {
+          "line_color": "#ffffff",
+          "line_height": "6",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "list_one_type2",
+        "stat": "three_cross",
+        "body": {
+          "w": 0,
+          "h": 0,
+          "items": [
+            {
+              "img_url": "http://i8.mifile.cn/v1/a1/808b0701-2d62-73e5-0b16-81da5e8ece7c.webp",
+              "action": {
+                "type": "product",
+                "path": "5299",
+                "log_code": "recom_home_20-2#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5299",
+                "recommend_code": "recom_home_20-2#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5299"
+              },
+              "product_name": "小米米家对讲机",
+              "product_price": "249",
+              "product_org_price": "249",
+              "product_brief": "在每一场未知的探险中，随心沟通",
+              "product_tag": "http://i8.mifile.cn/v1/a1/51a2cee2-8fdc-a17c-cbfb-d3c19c9996f6.webp",
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "img_percent": 1
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "list_one_type3",
+        "stat": "three_cross",
+        "body": {
+          "w": 0,
+          "h": 0,
+          "items": [
+            {
+              "img_url": "http://i8.mifile.cn/v1/a1/a4c8c780-acbd-23c7-6ae2-f1abe5e5d34d.webp",
+              "action": {
+                "type": "product",
+                "path": "4913",
+                "log_code": "recom_home_20-3#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=4913",
+                "recommend_code": "recom_home_20-3#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=4913"
+              },
+              "product_name": "WiFi放大器 2",
+              "product_price": "49",
+              "product_org_price": "49",
+              "product_brief": "速率翻倍，覆盖无忧，适配市面主流路由器",
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "img_percent": 1
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "list_one_type2",
+        "stat": "three_cross",
+        "body": {
+          "w": 0,
+          "h": 0,
+          "items": [
+            {
+              "img_url": "http://i8.mifile.cn/v1/a1/d60cc88b-b88f-752c-0e01-59738fd51dc7.webp",
+              "action": {
+                "type": "product",
+                "path": "5145",
+                "log_code": "recom_home_20-4#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5145",
+                "recommend_code": "recom_home_20-4#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5145"
+              },
+              "product_name": "小方智能摄像机",
+              "product_price": "129",
+              "product_org_price": "129",
+              "product_brief": "1080P清晰画质，手机直连，安全看家",
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "img_percent": 1
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#cecece",
+          "line_height": "1",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "list_action_title",
+        "body": {
+          "w": 0,
+          "h": 0,
+          "items": [
+            {
+              "action_title": "更多米家智能产品",
+              "action": {
+                "type": "channel",
+                "path": "1415",
+                "log_code": "31waphomelist_action_title001025#rid=ed3ae2d277a66d855d540e37be1b104c&t=normal&page=home"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#f5f5f5",
+          "line_height": "24",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "cells_auto_fill",
+        "is_show": "Y",
+        "body": {
+          "w": 720,
+          "h": 480,
+          "items": [
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/46c44f3e-479d-a999-dd2d-98fb39b51e17.webp?bg=C0A491",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/46c44f3e-479d-a999-dd2d-98fb39b51e17.webp?bg=C0A491",
+              "action": {
+                "type": "channel",
+                "path": "32",
+                "log_code": "31waphomecells_auto_fill001027#rid=1f35174f641fd8716f838e5c9a8946e4&t=ad&page=home&adp=227&adm=41"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 358,
+              "h": 480,
+              "path_type": "image"
+            },
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/d55778b9-7144-2d36-1450-694b8a47b9db.webp?bg=ACB5C8",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/d55778b9-7144-2d36-1450-694b8a47b9db.webp?bg=ACB5C8",
+              "action": {
+                "type": "channel",
+                "path": "33",
+                "log_code": "31waphomecells_auto_fill002027#rid=1dd35d8d2a138355500b66cf83d08756&t=ad&page=home&adp=228&adm=42"
+              },
+              "x": 362,
+              "y": 0,
+              "w": 358,
+              "h": 480,
+              "path_type": "image"
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#f5f5f5",
+          "line_height": "6",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "cells_auto_fill",
+        "is_show": "Y",
+        "body": {
+          "w": 720,
+          "h": 480,
+          "items": [
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/77fbec9f-aef3-c2f0-9adc-2bf7dc603e1d.webp?bg=ADC2CC",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/77fbec9f-aef3-c2f0-9adc-2bf7dc603e1d.webp?bg=ADC2CC",
+              "action": {
+                "type": "channel",
+                "path": "34",
+                "log_code": "31waphomecells_auto_fill001029#rid=b8c258bde6b4b191f2bd4399fcd8249e&t=ad&page=home&adp=291&adm=44"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 358,
+              "h": 480,
+              "path_type": "image"
+            },
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/9b87efa9-910a-1dcb-e09a-49f33b1c7655.webp?bg=B4C5BB",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/9b87efa9-910a-1dcb-e09a-49f33b1c7655.webp?bg=B4C5BB",
+              "action": {
+                "type": "url",
+                "path": "http://h5.mi.com/p/ghd/2017/xgs0315/index.html",
+                "log_code": "31waphomecells_auto_fill002029#rid=61ec83a7e5cadc5ef1252462f55b69d0&t=ad&page=home&adp=292&adm=1004"
+              },
+              "x": 362,
+              "y": 0,
+              "w": 358,
+              "h": 480,
+              "path_type": "image"
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "divider_line",
+        "body": {
+          "line_color": "#f5f5f5",
+          "line_height": "6",
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "view_type": "cells_auto_fill",
+        "is_show": "Y",
+        "body": {
+          "w": 720,
+          "h": 480,
+          "items": [
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/52866372-7fe5-76c2-29a0-9ae32d07b8ff.webp?bg=D9D8C3",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/52866372-7fe5-76c2-29a0-9ae32d07b8ff.webp?bg=D9D8C3",
+              "action": {
+                "type": "channel",
+                "path": "36",
+                "log_code": "31waphomecells_auto_fill001031#rid=5e44a2b153c11487ada51a486582395b&t=ad&page=home&adp=293&adm=45"
+              },
+              "x": 0,
+              "y": 0,
+              "w": 358,
+              "h": 480,
+              "path_type": "image"
+            },
+            {
+              "img_url": "//i8.mifile.cn/v1/a1/b79cb907-3ae4-2a35-6756-b243b386a95a.webp?bg=E8CFCB",
+              "img_url_webp": "//i8.mifile.cn/v1/a1/b79cb907-3ae4-2a35-6756-b243b386a95a.webp?bg=E8CFCB",
+              "action": {
+                "type": "channel",
+                "path": "1415",
+                "log_code": "31waphomecells_auto_fill002031#rid=22896bb0b5b26a93df93df7eb2478d50&t=ad&page=home&adp=294&adm=46"
+              },
+              "x": 362,
+              "y": 0,
+              "w": 358,
+              "h": 480,
+              "path_type": "image"
+            }
+          ]
+        }
+      },
+      {
+        "view_type": "cells_auto_fill",
+        "body": {
+          "w": 720,
+          "h": 120,
+          "items": [
+            {
+              "img_url": "http://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/e95ade2750a7fde92369b416c7d3176d.jpg",
+              "x": 0,
+              "y": 0,
+              "w": 720,
+              "h": 120,
+              "path_type": "image"
+            }
+          ]
+        }
+      }
+    ],
+    "seo": {
+      "title": "小米商城-小米官方网站，小米手机、红米手机正品专卖",
+      "keywords": "小米,小米官网,小米手机,小米官网首页,小米商城",
+      "description": "小米商城直营小米公司旗下所有产品，囊括小米手机、红米手机、智能硬件及小米生活周边，同时提供小米客户服务及售后支持。"
+    }
+  }
+}
