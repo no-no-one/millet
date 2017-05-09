@@ -1,0 +1,62 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "product": [
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"4698\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [
+          {
+            "Desc": "",
+            "Type": "可分期"
+          }
+        ],
+        "image_url": "http://i8.mifile.cn/v1/a1/5174d6f3-20f7-37b3-6027-2e77a3fec9bd.webp",
+        "is_cos": false,
+        "market_price_max": "3499.00",
+        "market_price_min": "3499.00",
+        "price_max": "3499.00",
+        "price_min": "3499.00",
+        "product_desc": "<font color=\"#ff4a00\">【小米MIX 享花呗3期免息\n】</font>6.4\" 全面屏 / 全陶瓷机身 / 骁龙 821 性能版 / 4GB内存+128GB闪存 / 4400mAh 大电量 / 陶瓷声学系统 / 超声波距离感应",
+        "product_id": "4698",
+        "product_name": "小米MIX 4GB + 128GB",
+        "score": "0.4000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"4700\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/beef0019-2bfb-cba6-54cc-4063592d15aa.webp",
+        "is_cos": false,
+        "market_price_max": "3999.00",
+        "market_price_min": "3999.00",
+        "price_max": "3999.00",
+        "price_min": "3999.00",
+        "product_desc": "<font color=\"#ff4a00\">【小米MIX 享花呗3期免息\n】</font>6.4\" 全面屏 / 全陶瓷机身 / 骁龙 821 性能版 / 6GB内存+256GB闪存 / 4400mAh 大电量 / 18K镀金 相机环指纹环 / 陶瓷声学系统 / 超声波距离感应",
+        "product_id": "4700",
+        "product_name": "小米MIX 尊享版 6GB + 256GB",
+        "score": "0.4000",
+        "tag_imag": ""
+      }
+    ],
+    "recommend_desc": "",
+    "total_count": 2,
+    "total_page": 1,
+    "type": "search"
+  }
+}

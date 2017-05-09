@@ -1,0 +1,94 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "product": [
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5679\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [
+          {
+            "Desc": "",
+            "Type": "可分期"
+          }
+        ],
+        "image_url": "http://i8.mifile.cn/v1/a1/5129dfc7-5617-3da7-1526-7e50112fa305.webp",
+        "is_cos": true,
+        "market_price_max": "2499.00",
+        "market_price_min": "2499.00",
+        "price_max": "2499.00",
+        "price_min": "2499.00",
+        "product_desc": "变焦双摄，4 轴防抖 / 骁龙835 旗舰处理器，6GB 大内存，最大可选128GB 闪存 / 5.15\" 护眼屏 / 四曲面玻璃/陶瓷机身",
+        "product_id": "5679",
+        "product_name": "小米6 6GB+64GB ",
+        "score": "0.3000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5680\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [
+          {
+            "Desc": "",
+            "Type": "可分期"
+          }
+        ],
+        "image_url": "http://i8.mifile.cn/v1/a1/629862db-f586-1122-f395-2f2b369d65a3.webp",
+        "is_cos": true,
+        "market_price_max": "2899.00",
+        "market_price_min": "2899.00",
+        "price_max": "2899.00",
+        "price_min": "2899.00",
+        "product_desc": "变焦双摄，4 轴防抖 / 骁龙835 旗舰处理器，6GB 大内存，最大可选128GB 闪存 / 5.15\" 护眼屏 / 四曲面玻璃/陶瓷机身",
+        "product_id": "5680",
+        "product_name": "小米6 6GB+128GB ",
+        "score": "0.3000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5687\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [
+          {
+            "Desc": "",
+            "Type": "可分期"
+          }
+        ],
+        "image_url": "http://i8.mifile.cn/v1/a1/6669ced8-5009-62a0-cc7b-2ea26c602610.webp",
+        "is_cos": true,
+        "market_price_max": "2999.00",
+        "market_price_min": "2999.00",
+        "price_max": "2999.00",
+        "price_min": "2999.00",
+        "product_desc": "变焦双摄，4 轴防抖 / 骁龙835 旗舰处理器，6GB 大内存，最大可选128GB 闪存 / 5.15\" 护眼屏 / 四曲面玻璃/陶瓷机身",
+        "product_id": "5687",
+        "product_name": "小米6 陶瓷尊享版",
+        "score": "0.3000",
+        "tag_imag": ""
+      }
+    ],
+    "recommend_desc": "",
+    "total_count": 3,
+    "total_page": 1,
+    "type": "search"
+  }
+}

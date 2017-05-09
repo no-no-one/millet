@@ -1,0 +1,199 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "product": [
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5495\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [
+          {
+            "Desc": "",
+            "Type": "可分期"
+          }
+        ],
+        "image_url": "http://i8.mifile.cn/v1/a1/d6bf4668-c42f-91ae-e4cd-5eaf5577f536.webp",
+        "is_cos": false,
+        "market_price_max": "1299.00",
+        "market_price_min": "1299.00",
+        "price_max": "1299.00",
+        "price_min": "1299.00",
+        "product_desc": "5.5\"多彩金属 / 4100mAh 超长续航 / Helio X20 十核旗舰处理器",
+        "product_id": "5495",
+        "product_name": "红米Note 4X 4GB+64GB",
+        "score": "0.5000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5206\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [
+          {
+            "Desc": "",
+            "Type": "可分期"
+          }
+        ],
+        "image_url": "http://i8.mifile.cn/v1/a1/df54926a-f3e2-863a-48b9-c1c861a4e9de.webp",
+        "is_cos": false,
+        "market_price_max": "999.00",
+        "market_price_min": "999.00",
+        "price_max": "999.00",
+        "price_min": "999.00",
+        "product_desc": "5.5\"多彩金属 / 4100mAh 超长续航 / 骁龙 8 核625处理器",
+        "product_id": "5206",
+        "product_name": "红米Note 4X 3GB+32GB",
+        "score": "0.5000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5214\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/c66b2a80-9b3c-37f3-ba9c-e600a09b3c16.webp",
+        "is_cos": false,
+        "market_price_max": "39.00",
+        "market_price_min": "39.00",
+        "price_max": "39.00",
+        "price_min": "39.00",
+        "product_desc": "智能唤醒 / 点阵设计 / 时尚轻薄，简约大气",
+        "product_id": "5214",
+        "product_name": "红米Note 4X 智能立显点阵保护套",
+        "score": "0.5000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5313\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/8d1ee1e2-48ec-4499-3bbc-15220279e75c.webp",
+        "is_cos": false,
+        "market_price_max": "39.00",
+        "market_price_min": "39.00",
+        "price_max": "39.00",
+        "price_min": "39.00",
+        "product_desc": "智能视窗 / 轻薄设计 / 一体化设计 / 金属质感",
+        "product_id": "5313",
+        "product_name": "红米Note 4X 标准版 智能显示保护套",
+        "score": "0.5000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5215\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/fd015e93-9dd7-e9b2-37ea-c5844831377b.webp",
+        "is_cos": false,
+        "market_price_max": "19.00",
+        "market_price_min": "19.00",
+        "price_max": "19.00",
+        "price_min": "19.00",
+        "product_desc": "轻薄 / 舒适柔软 / 简约设计",
+        "product_id": "5215",
+        "product_name": "红米Note 4X 标准版 高透软胶保护套",
+        "score": "0.5000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5542\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/50dc4413-81ea-5597-c58f-a2fa70bbc8b4.webp",
+        "is_cos": false,
+        "market_price_max": "39.00",
+        "market_price_min": "39.00",
+        "price_max": "39.00",
+        "price_min": "39.00",
+        "product_desc": "",
+        "product_id": "5542",
+        "product_name": "红米Note 4X 高配版 智能显示保护套",
+        "score": "0.5000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"4828\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/3a5d0d4a-6ecc-b4ac-8312-1ad57c111ab4.webp",
+        "is_cos": false,
+        "market_price_max": "19.00",
+        "market_price_min": "19.00",
+        "price_max": "19.00",
+        "price_min": "19.00",
+        "product_desc": "极清高透 / 硬度升级，防刮耐磨 / 轻松贴合不易脱落",
+        "product_id": "4828",
+        "product_name": "红米Note 4X 标准版 标准高透贴膜",
+        "score": "0.5000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5544\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/fe6f5858-2d09-51c9-b577-ebdfb8fff8de.webp",
+        "is_cos": false,
+        "market_price_max": "19.00",
+        "market_price_min": "19.00",
+        "price_max": "19.00",
+        "price_min": "19.00",
+        "product_desc": "",
+        "product_id": "5544",
+        "product_name": "红米Note 4X 高配版 标准高透贴膜",
+        "score": "0.5000",
+        "tag_imag": ""
+      }
+    ],
+    "recommend_desc": "",
+    "total_count": 8,
+    "total_page": 1,
+    "type": "search"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "product": [
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"4802\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [
+          {
+            "Desc": "",
+            "Type": "可分期"
+          }
+        ],
+        "image_url": "http://i8.mifile.cn/v1/a1/8ef1164d-e1c5-ed1e-f827-b9a201520586.webp",
+        "is_cos": false,
+        "market_price_max": "1499.00",
+        "market_price_min": "1499.00",
+        "price_max": "1499.00",
+        "price_min": "1499.00",
+        "product_desc": "OLED 显示屏幕 / 激光颗粒物传感器 / 500m³/h颗粒物 CADR / 60㎡适用面积",
+        "product_id": "4802",
+        "product_name": "米家空气净化器Pro",
+        "score": "16.0000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"3398\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [
+          {
+            "Desc": "",
+            "Type": "可分期"
+          }
+        ],
+        "image_url": "http://i8.mifile.cn/v1/a1/1ea1fb37-2da1-ae02-311e-7928a67a5bb0.webp",
+        "is_cos": false,
+        "market_price_max": "699.00",
+        "market_price_min": "699.00",
+        "price_max": "699.00",
+        "price_min": "699.00",
+        "product_desc": "全新空气增压系统，净化能力高达310m³/h / 高效360°桶形净化滤芯 / 低分贝，低功耗 / 手机智能控制，一目了然",
+        "product_id": "3398",
+        "product_name": "小米空气净化器2",
+        "score": "16.0000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"4942\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [
+          {
+            "Desc": "",
+            "Type": "可分期"
+          }
+        ],
+        "image_url": "http://i8.mifile.cn/v1/a1/b00cc150-343a-cddd-bc81-5eb466b517c3.webp",
+        "is_cos": false,
+        "market_price_max": "449.00",
+        "market_price_min": "449.00",
+        "price_max": "449.00",
+        "price_min": "449.00",
+        "product_desc": "双风机循环气流 / 过滤PM2.5颗粒物 / 60m³/h 颗粒物 CADR / 高品质滤芯层层净化 / APP智能控制，车内空气质量一目了然",
+        "product_id": "4942",
+        "product_name": "米家车载空气净化器",
+        "score": "16.0000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"4665\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/5e01f285-c8f9-a49e-7bd3-59d2cce285da.webp",
+        "is_cos": false,
+        "market_price_max": "169.00",
+        "market_price_min": "169.00",
+        "price_max": "169.00",
+        "price_min": "169.00",
+        "product_desc": "小米空气净化器、小米空气净化器 2、米家空气净化器 Pro 通用 / 阻挡致病细菌 / 有效去除PM2.5 / 有效去除甲醛",
+        "product_id": "4665",
+        "product_name": "空气净化器滤芯 除甲醛增强版",
+        "score": "0.9000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"4664\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/902a9388-f101-6387-f5a4-f3c592664c52.webp",
+        "is_cos": false,
+        "market_price_max": "149.00",
+        "market_price_min": "149.00",
+        "price_max": "149.00",
+        "price_min": "149.00",
+        "product_desc": "小米空气净化器、小米空气净化器 2、米家空气净化器 Pro 通用 / 3层高效净化悬浮物 / 可吸入颗粒物、甲醛与异味",
+        "product_id": "4664",
+        "product_name": "空气净化器滤芯",
+        "score": "0.9000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5253\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/d4d97bc6-800e-df5d-475c-a2c83e0b20a4.webp",
+        "is_cos": false,
+        "market_price_max": "159.00",
+        "market_price_min": "159.00",
+        "price_max": "159.00",
+        "price_min": "159.00",
+        "product_desc": "抗菌率达99%以上 / 过滤PM2.5细颗粒物 / 活性炭有效吸附甲醛",
+        "product_id": "5253",
+        "product_name": "米家空气净化器滤芯 抗菌版",
+        "score": "0.9000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5439\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/414984c3-46f4-9caa-cb84-2e5adc9ed121.webp",
+        "is_cos": false,
+        "market_price_max": "49.00",
+        "market_price_min": "49.00",
+        "price_max": "49.00",
+        "price_min": "49.00",
+        "product_desc": "PET初效滤网 / H11高效过滤器 / 360°桶形设计",
+        "product_id": "5439",
+        "product_name": "米家车载空气净化器滤芯",
+        "score": "0.9000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5471\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [],
+        "image_url": "http://i8.mifile.cn/v1/a1/27f6f296-2f4d-7cb2-e5e1-d20a7e923789.webp",
+        "is_cos": false,
+        "market_price_max": "69.00",
+        "market_price_min": "69.00",
+        "price_max": "69.00",
+        "price_min": "69.00",
+        "product_desc": "触媒活性炭滤网 / 吸附甲醛 / 过滤有害气体 / 祛除异味",
+        "product_id": "5471",
+        "product_name": "米家车载空气净化器滤芯 除甲醛版",
+        "score": "0.9000",
+        "tag_imag": ""
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"5196\",\"goodsId\":\"\"}",
+          "log_code": "",
+          "login": false,
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "stat": "",
+          "type": "plugin"
+        },
+        "can_acts": [
+          {
+            "Desc": "",
+            "Type": "可分期"
+          },
+          {
+            "Desc": "",
+            "Type": "折扣"
+          }
+        ],
+        "image_url": "http://i8.mifile.cn/v1/a1/8c592b26-c6ef-5830-b9d4-0b9e19c1a4e6.jpg",
+        "is_cos": false,
+        "market_price_max": "596.00",
+        "market_price_min": "596.00",
+        "price_max": "516.00",
+        "price_min": "516.00",
+        "product_desc": "",
+        "product_id": "5196",
+        "product_name": "空净滤芯两年套装",
+        "score": "0.9000",
+        "tag_imag": ""
+      }
+    ],
+    "recommend_desc": "",
+    "total_count": 9,
+    "total_page": 1,
+    "type": "search"
+  }
+}
