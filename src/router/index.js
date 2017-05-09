@@ -4,7 +4,8 @@ import Hello from '@/components/Hello'
 import Home from '@/components/Home'
 import Mine from '@/components/Mine'
 import Market from '@/components/Market'
-import PhoneList from '@/components/cartserch'
+import CartSerch from '@/components/CartSerch'
+import PhoneList from '@/components/PhoneList'
 import Cart from '@/components/Cart'
 import channel from '@/components/channel'
 import Login from '@/components/Login'
@@ -35,6 +36,7 @@ export default new Router({
       path:"/market/channel",
       component:channel
     },{
+<<<<<<< HEAD
       path:"/home/login",
       component:Login
     },{
@@ -49,6 +51,13 @@ export default new Router({
     },{
       path:"/home/proDetail",
       component:ProDetail
+=======
+      path:"/cartserch",
+      component:CartSerch
+    },{
+      path:"/phonelist/:isLogin",
+      component:PhoneList
+>>>>>>> 83a145541ee2a9bdabb99df59ee601140706e883
     }
       
   ]
