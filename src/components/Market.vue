@@ -11,19 +11,19 @@
    <!-- 菜单 -->
    <div class="swiper-container swiper-title">
    	<div class="swiper-wrapper">
-   		<div  v-for="x in total">
+   		<!-- <div  v-for="x in total">
    			<a href="" class="swiper-slide swiper-hover">{{titles[x-1] ? titles[x-1].body.category1_name : ""}}</a>
-   		</div>
+   		</div> -->
    		
-   		
-	   <!-- 	<a href="" class="swiper-slide swiper-hover">笔记本·平板</a>
+   			<a href="" class="swiper-slide swiper-hover">手机·电话卡</a>
+	   	<a href="" class="swiper-slide swiper-hover">笔记本·平板</a>
 	   	<a href="" class="swiper-slide swiper-hover">电视·盒子</a>
 	   	<a href="" class="swiper-slide swiper-hover">智能硬件·路由器</a>
 	   	<a href="" class="swiper-slide swiper-hover">移动电源·插线板·电池</a>
 	   	<a href="" class="swiper-slide swiper-hover">耳机·音箱·存储卡</a>
 	   	<a href="" class="swiper-slide swiper-hover">小米生活方式</a>
 	   	<a href="" class="swiper-slide swiper-hover">保护类配件</a>
-	   	<a href="" class="swiper-slide swiper-hover">优惠套餐</a> -->
+	   	<a href="" class="swiper-slide swiper-hover">优惠套餐</a>
    	</div>  	
    </div>
    <!-- 分类 -->
@@ -104,17 +104,17 @@ export default{
 	@import "../../static/swiper.min.css";
 	.classify_head{
 		width: 100%;
-		height: 5rem;
+		height: 4rem;
 		background-color: #F2F2F2;
-		font-size: 3rem;
-		line-height: 5rem;
+		font-size: 2rem;
+		line-height: 4rem;
 	}
 	.classify_head p span{
-		margin-left: 28rem;
+		margin-left: 8rem;
 	}
 	.classify_head p a img{
-		width: 3.5rem;
-		height: 3rem;
+		width: 3.2rem;
+		height: 2.5rem;
 		vertical-align: middle;
 	}
 	.classify_head a:nth-of-type(2){
@@ -147,7 +147,7 @@ export default{
     .swiper-title{
     	 width: 100%;
     	background-color: white;
-    	 height: 5rem;
+    	 height: 4rem;
       	border-bottom: 12px solid #F2F2F2;
     	/*position: fixed;
 		top:5rem;
@@ -162,7 +162,7 @@ export default{
 	}
 	.bigItems p a img{
 		width: 100%;
-		height: 28rem;
+		height: 17rem;
 	}
 	.aaa{
 		height: 5.8rem;
@@ -184,7 +184,7 @@ export default{
 	.classify_items dl{
 		float: left;
 		width: 33%;
-		height: 19.4rem;
+		height: 13.4rem;
 	}
 	.classify_items dl dt{
 		float: left;
