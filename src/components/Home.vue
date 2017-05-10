@@ -1,5 +1,5 @@
 <template lang="html">
-   <body id="box">
+   <body class="home">
 
 		<header>
 			<div class="logo">
@@ -71,9 +71,9 @@
 		
 			<dl class="item" v-for="x in starData">
 				<div class="item_inner" v-for="n in x.body.items">												
-					<a href="#/proDetail" @click="showDetail(n)">
+					<a  @click.prevent="showDetail(n)">
 						<dt class="item_img" >					
-							<router-link to="/home/proDetail"><img :src="n.img_url" alt=""></router-link>
+							<img :src="n.img_url" alt="">
 						</dt>
 						<dd class="info">
 							<div class="name">{{n.product_name}}</div>
@@ -118,8 +118,6 @@
 			  <area shape="circle" coords="180,139,14" href="venus.htm" alt="Venus" />
 			</map>	
 		</div>
-
-
 	</body>
 
 </template>
@@ -145,6 +143,8 @@
 		methods:{
 			showDetail:function(pro){
 				Bus.$emit("add",pro);
+				// location.href = "#/home/proDetail"
+				this.$router.push("/home/proDetail")
 				console.log(Bus.todos)
 			}
 		},
@@ -194,27 +194,27 @@
 <style>
 @import "../../static/swiper/css/swiper.min.css";
 
-
-.swiper1{
+.home{
+	margin-bottom: 20rem;
+}
+.home .swiper1{
 	text-align: right;
 	margin-right: 1rem;
 }
-.swiper-pagination-bullet-active{
+.home .swiper-pagination-bullet-active{
 	background: #fff;
 }
-#box{
-	margin-bottom: 20rem;
-}
-.opacity-enter-active,.opacity-leave-active{
+
+.home .opacity-enter-active,.opacity-leave-active{
 				transition:all 2s;
 			}
 			.opacity-enter,.opacity-leave-active{
 				opacity: 0;
 			}
-img{
+.home img{
 	display: block;
 }
-header{
+.home header{
 	width: 100%;
 	height: 3.5rem;
 	text-align: center;
@@ -230,11 +230,11 @@ header{
 	align-items: center;
 	z-index: 500;
 }
-.logo img{
+.home .logo img{
 	width: 2.2rem;
 	height: 1.4rem;
 }
-.search_bar{
+.home .search_bar{
 	width: 25rem;
 	height: 2.2rem;
 	border-radius: .3rem;
@@ -244,24 +244,24 @@ header{
 	align-items: center;
 	justify-content:flex-start;
 }
-.text{
+.home .text{
 	color:#fff;
 	font-size: 1.5rem;
 }
-.search_name{
+.home .search_name{
 	color:rgba(0,0,0,.3);
 	font-size: 1.2rem;
 	margin-left: 2.5rem;
 }
 /*轮播图*/
-.banner{
+.home .banner{
 	width: 100%;
 }
-.banner img{
+.home .banner img{
 	width: 100%;
 }
 /*早报*/
-.newPaper{
+.home .newPaper{
 	width: 100%;
 	height: auto;
 	display: flex;
@@ -269,84 +269,84 @@ header{
 	align-items: center;
 	border-bottom: .5rem solid #f5f5f5;
 }
-.img{
+.home .img{
 	width: 8rem;	
 }
-.img img{
+.home .img img{
 	width: 7rem;
 	margin-top: .5rem
 }
-.slide{
+.home .slide{
 	width: 1px;
 	color: #b2b2b2;
 }
-.newPaper_tit{
+.home .newPaper_tit{
 	margin-left: 1rem;
 	font-size: 1.5rem;
 	color:#000;
 	height: 1.5rem;
 }
-.newPro{
+.home .newPro{
 	width: 100%;
 	height: 40rem;
 }
-.miNote{
+.home .miNote{
 	height: 66%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom: .5rem;
 }
-.miNote>img{
+.home .miNote>img{
 	width: 49.5%;
 }
-.miNote_r{
+.home .miNote_r{
 	width: 49.5%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
-.miNote_r img{
+.home .miNote_r img{
 	width: 100%;
 	height: 49.5%;
 }
-.miMix img{
+.home .miMix img{
 	width: 100%;
 	height: 30%;
 }
 /*明星单品*/
-.detail_inner{
+.home .detail_inner{
 	border-top: 1rem solid #f5f5f5;
-	width: 40rem;
+	width:100%;
 }
-.d_i_title{
+.home .d_i_title{
     width: 100%;
 }
-.d_i_title img{
+.home .d_i_title img{
 	width: 100%;
 	height: auto;
 	margin-bottom: .2rem;
 }
-.item{
+.home .item{
 	width: 49.5%;
 	margin-right: .1rem;
     float: left;
 }
 
-.item_img{
+.home .item_img{
 	width: 100%;
 	height: auto;
 }
-.item_img img{
+.home .item_img img{
 	width: 100%;
 	height: auto;
 }
-.info{
+.home .info{
 	width: 50%;
 	padding:.5rem 1rem;
 
 }
-.name {
+.home .name {
     font-size: 1.6rem;
     font-weight: 100;
     color: rgba(0,0,0,.87);
@@ -354,7 +354,7 @@ header{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.brief {
+.home .brief {
     margin-top: .4rem;
     font-size: 1.4rem;
     line-height: 1.4rem;
@@ -363,14 +363,14 @@ header{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.price {
+.home .price {
     font-size: 1.6rem;
     color: #ff6000;
     margin-top: .4rem;
     position: relative;
     margin-left: .8rem;
 }
-.price::before {
+.home .price::before {
     content: "￥";
     position: absolute;
     left: -.8rem;
@@ -379,7 +379,7 @@ header{
     margin-right: .5rem;
     font-weight: 400;
 }
-.more{
+.home .more{
 	width: 100%;
 	height: 4rem;
 	line-height: 4rem;
@@ -388,32 +388,32 @@ header{
 	color: rgba(0,0,0,.5);
 	border-bottom: .5rem solid #f5f5f5;
 }
-.smart_inner{
+.home .smart_inner{
     width: 100%;
 }
-.smart_img{
+.home .smart_img{
     width: 50%;
 }
-.smart_img img{
+.home .smart_img img{
     width: 100%;
     float: left;
 }
-.smart_inner .info{
+.home .smart_inner .info{
     float: right;
     box-sizing: border-box;
     padding:3rem 1rem 0 2.5rem;
 }
-.smart_inner .brief{
+.home .smart_inner .brief{
     width: 100%;
     white-space: pre-wrap;
     word-wrap: break-word;
 }
 /*广告*/
-.ad{
+.home .ad{
     width: 100%;
     height: 5rem;
 }
-.ad img{
+.home .ad img{
     width: 100%;
     height: auto;
     margin-bottom: 4rem;
