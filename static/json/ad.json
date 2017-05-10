@@ -1,0 +1,47 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": [
+    {
+      "guide_id": 87,
+      "front_type": "ios",
+      "location": "m_home",
+      "figure": "bottom_float",
+      "is_new_user": true,
+      "image_url": [
+        "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/baf392bb0c5c9d3c25f60f5fe04f0705.png"
+      ]
+    },
+    {
+      "guide_id": 3,
+      "front_type": "ios",
+      "location": "m_pay",
+      "figure": "top",
+      "is_new_user": true,
+      "image_url": [
+        "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/50d147170713977a4bd21efc53d504a8.png"
+      ]
+    },
+    {
+      "guide_id": 85,
+      "front_type": "ios",
+      "location": "share_news",
+      "figure": "bottom_float",
+      "is_new_user": true,
+      "image_url": [
+        "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/baf392bb0c5c9d3c25f60f5fe04f0705.png"
+      ]
+    },
+    {
+      "guide_id": 83,
+      "front_type": "ios",
+      "location": "m_home",
+      "figure": "top",
+      "is_new_user": true,
+      "image_url": [
+        "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/d2e6fd69defaee0a23df1111bb399fec.png"
+      ]
+    }
+  ]
+}

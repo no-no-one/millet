@@ -1,0 +1,176 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "sections": [{
+      "view_type": "list_two_type1",
+      "stat": "0e7fcbe983efc2a487ef4cfc57a9941b",
+      "body": {
+        "w": 0,
+        "h": 0,
+        "items": [{
+          "img_url": "http://i8.mifile.cn/v1/a1/df54926a-f3e2-863a-48b9-c1c861a4e9de.webp",
+          "action": {
+            "type": "product",
+            "path": "10000029",
+            "log_code": "recom_home_1-0#eid=14:0:0:0:0:0:0:0:0:1&tid=mishop-home_page-1494212755289-48&page=home&pid=5206",
+            "recommend_code": "recom_home_1-0#eid=14:0:0:0:0:0:0:0:0:1&tid=mishop-home_page-1494212755289-48&page=home&pid=5206"
+          },
+          "product_id": "10000029",
+          "product_name": "红米Note 4X 全网通版",
+          "product_price": "999",
+          "product_org_price": "999",
+          "product_brief": "多彩金属/超长续航",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "show_price_qi": true,
+          "img_percent": 0.5
+        }, {
+          "img_url": "http://i8.mifile.cn/v1/a1/61765dce-15d8-2c81-4d20-55f57370e1a9.webp",
+          "action": {
+            "type": "product",
+            "path": "10000031",
+            "log_code": "recom_home_1-1#eid=14:0:0:0:0:0:0:0:0:1&tid=mishop-home_page-1494212755289-48&page=home&pid=5291",
+            "recommend_code": "recom_home_1-1#eid=14:0:0:0:0:0:0:0:0:1&tid=mishop-home_page-1494212755289-48&page=home&pid=5291"
+          },
+          "product_id": "10000031",
+          "product_name": "红米4X ",
+          "product_price": "699",
+          "product_org_price": "699",
+          "product_brief": "超长续航，5” 舒适单手握感",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "show_price_qi": true,
+          "img_percent": 0.5
+        }]
+      }
+    }, {
+      "view_type": "list_two_type1",
+      "stat": "0e7fcbe983efc2a487ef4cfc57a9941b",
+      "body": {
+        "w": 0,
+        "h": 0,
+        "items": [{
+          "img_url": "http://i8.mifile.cn/v1/a1/97c2e91e-523e-3988-3abc-aacc824f2737.webp",
+          "action": {
+            "type": "product",
+            "path": "4565",
+            "log_code": "recom_home_2-0#eid=14:0:0:0:0:0:0:0:0:1&tid=mishop-home_page-1494212755289-48&page=home&pid=4565",
+            "recommend_code": "recom_home_2-0#eid=14:0:0:0:0:0:0:0:0:1&tid=mishop-home_page-1494212755289-48&page=home&pid=4565"
+          },
+          "product_id": "4565",
+          "product_name": "小米手环2",
+          "product_price": "149",
+          "product_org_price": "149",
+          "product_brief": "OLED 显示屏，触摸操作",
+          "product_tag": "http://i8.mifile.cn/v1/a1/b99c10fc-8a6c-001f-5f2c-51aa65c04d9b.webp",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "img_percent": 0.5
+        }, {
+          "img_url": "http://i8.mifile.cn/v1/a1/b886ebe9-055b-f2ee-765f-c8550f1e0e56.webp",
+          "action": {
+            "type": "product",
+            "path": "5349",
+            "log_code": "recom_home_2-1#eid=14:0:0:0:0:0:0:0:0:1&tid=mishop-home_page-1494212755289-48&page=home&pid=5349",
+            "recommend_code": "recom_home_2-1#eid=14:0:0:0:0:0:0:0:0:1&tid=mishop-home_page-1494212755289-48&page=home&pid=5349"
+          },
+          "product_id": "5349",
+          "product_name": "小米电视4A 49英寸",
+          "product_price": "2599",
+          "product_org_price": "2599",
+          "product_brief": "全高清HDR，超窄边框",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "img_percent": 0.5
+        }]
+      }
+    }],
+    "smart": [{
+      "view_type": "list_one_type2",
+      "stat": "three_cross",
+      "body": {
+        "w": 0,
+        "h": 0,
+        "items": [{
+          "img_url": "http://i8.mifile.cn/v1/a1/808b0701-2d62-73e5-0b16-81da5e8ece7c.webp",
+          "action": {
+            "type": "product",
+            "path": "5299",
+            "log_code": "recom_home_20-2#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5299",
+            "recommend_code": "recom_home_20-2#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5299"
+          },
+          "product_name": "小米米家对讲机",
+          "product_price": "249",
+          "product_org_price": "249",
+          "product_brief": "在每一场未知的探险中，随心沟通",
+          "product_tag": "http://i8.mifile.cn/v1/a1/51a2cee2-8fdc-a17c-cbfb-d3c19c9996f6.webp",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "img_percent": 1
+        }]
+      }
+    }, {
+      "view_type": "list_one_type3",
+      "stat": "three_cross",
+      "body": {
+        "w": 0,
+        "h": 0,
+        "items": [{
+          "img_url": "http://i8.mifile.cn/v1/a1/a4c8c780-acbd-23c7-6ae2-f1abe5e5d34d.webp",
+          "action": {
+            "type": "product",
+            "path": "4913",
+            "log_code": "recom_home_20-3#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=4913",
+            "recommend_code": "recom_home_20-3#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=4913"
+          },
+          "product_name": "WiFi放大器 2",
+          "product_price": "49",
+          "product_org_price": "49",
+          "product_brief": "速率翻倍，覆盖无忧，适配市面主流路由器",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "img_percent": 1
+        }]
+      }
+    }, {
+      "view_type": "list_one_type2",
+      "stat": "three_cross",
+      "body": {
+        "w": 0,
+        "h": 0,
+        "items": [{
+          "img_url": "http://i8.mifile.cn/v1/a1/d60cc88b-b88f-752c-0e01-59738fd51dc7.webp",
+          "action": {
+            "type": "product",
+            "path": "5145",
+            "log_code": "recom_home_20-4#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5145",
+            "recommend_code": "recom_home_20-4#eid=13:0:0:0:0:0:0:0:0:0&page=home&pid=5145"
+          },
+          "product_name": "小方智能摄像机",
+          "product_price": "129",
+          "product_org_price": "129",
+          "product_brief": "1080P清晰画质，手机直连，安全看家",
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "img_percent": 1
+        }]
+      }
+    }]
+  }
+}
