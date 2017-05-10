@@ -8,11 +8,19 @@ import CartSerch from '@/components/CartSerch'
 import PhoneList from '@/components/PhoneList'
 import Cart from '@/components/Cart'
 import channel from '@/components/channel'
-import Login from '@/components/Login'
-import Search from '@/components/Search'
+// import Login from '@/components/Login'
+// import Search from '@/components/Search'
 import NewPaper from '@/components/NewPaper'
 import NewPro from '@/components/NewPro'
 import ProDetail from '@/components/ProDetail'
+import Indent from '@/components/Indent'
+import Record from '@/components/Record'
+import Privilege from '@/components/Privilege'
+import Service from '@/components/Service'
+import Set from '@/components/Set'
+import Family from '@/components/Family'
+import Familys from '@/components/Familys'
+import Enter from '@/components/Enter'
 Vue.use(Router)
 
 export default new Router({
@@ -36,13 +44,6 @@ export default new Router({
       path:"/market/channel",
       component:channel
     },{
-<<<<<<< HEAD
-      path:"/home/login",
-      component:Login
-    },{
-      path:"/home/search",
-      component:Search
-    },{
       path:"/home/newPaper",
       component:NewPaper
     },{
@@ -51,13 +52,36 @@ export default new Router({
     },{
       path:"/home/proDetail",
       component:ProDetail
-=======
+    },{
       path:"/cartserch",
       component:CartSerch
     },{
       path:"/phonelist/:isLogin",
       component:PhoneList
->>>>>>> 83a145541ee2a9bdabb99df59ee601140706e883
+    },{
+      path:"/indent",//订单
+      component:Indent
+    },{
+      path:"/record",//售后
+      component:Record
+    },{
+      path:"/privilege",//优惠
+      component:Privilege
+    },{
+      path:"/service",//服务
+      component:Service
+    },{
+      path:"/set",//设置
+      component:Set
+    },{
+      path:"/family",//小米之家
+      component:Family
+    },{
+      path:"/familys",//小米之家内部
+      component:Familys
+    },{
+      path:"/enter",//登录
+      component:Enter
     }
       
   ]

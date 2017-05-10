@@ -7,7 +7,7 @@
 			</div>
 			<router-link to="/home/search">
 				<div class="search_bar">			
-					<span class="search_name">搜索商品名称</span>			
+					<span class="cartserch">搜索商品名称</span>			
 				</div>
 			</router-link>
 			<div class="login">
