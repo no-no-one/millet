@@ -5,18 +5,16 @@
    	<p>
    		<router-link to="/"><a href=""><img src="../assets/icon_back_n.png" alt=""></a></router-link>
 		<span>商品分类</span>
-		<a href=""><img src="../assets/222.png" alt=""></a>
+		<router-link to="/CartSerch"><a href=""><img src="../assets/222.png" alt=""></a></router-link>
    	</p>
    </div>
    <!-- 菜单 -->
    <div class="swiper-container swiper-title">
    	<div class="swiper-wrapper">
-   		<!-- <div  v-for="x in total">
-   			<a href="" class="swiper-slide swiper-hover">{{titles[x-1] ? titles[x-1].body.category1_name : ""}}</a>
-   		</div> -->
+   			<!-- <a href="" class="swiper-slide swiper-hover" v-for="x in total">{{titles[x-1] ? titles[x-1].body.category1_name : ""}}</a> -->
    		
-   			<a href="" class="swiper-slide swiper-hover">手机·电话卡</a>
-	   	<a href="" class="swiper-slide swiper-hover">笔记本·平板</a>
+   		<a href="" class="swiper-slide swiper-hover">手机·电话卡</a>
+   		<a href="" class="swiper-slide swiper-hover">笔记本·平板</a>
 	   	<a href="" class="swiper-slide swiper-hover">电视·盒子</a>
 	   	<a href="" class="swiper-slide swiper-hover">智能硬件·路由器</a>
 	   	<a href="" class="swiper-slide swiper-hover">移动电源·插线板·电池</a>
@@ -81,7 +79,7 @@ export default{
 		}
 	},
 	mounted (){ 
-		var swiper = new Swiper('.swiper-container', {
+		var swiper_channel = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         slidesPerView: 3,
         paginationClickable: true,
@@ -98,6 +96,20 @@ export default{
 	  }); 
 	}
 }
+
+
+	// 	window.onscroll = function(){
+	// 		var swiperTitle=document.querySelector('.swiper-title');
+	// 		var classify_head=document.querySelector(".classify_head");
+	// 		var disa = window.scrollTop||document.body.scrollTop||document.documentElement.scrollTop;
+	// 		if(disa>=0&&disa<=4){
+	// 			classify_head.style.display="block";
+	// 			swiperTitle.style.top=4;
+	// 		}else{
+	// 			classify_head.style.display="none";
+	// 			swiperTitle.style.top=0;
+	// 		}		
+	// }
 
 </script>
 <style>
@@ -138,19 +150,26 @@ export default{
         -webkit-align-items: center;
         align-items: center;
     }
-    /*.swiper-hover{
-    	padding: 0 3rem;
-    }*/
+    .swiper-hover{
+    	color: #929292;
+    	display: inline-block;
+    	/*margin-left: -1rem;*/
+    	width: 10rem;
+    	text-align: center;
+    	margin-right: 2rem;
+
+    }
     .swiper-hover:hover{
     	color: #FCA472;
     }
     .swiper-title{
-    	 width: 100%;
+    	width: 100%;
     	background-color: white;
-    	 height: 4rem;
+    	height: 4rem;
       	border-bottom: 12px solid #F2F2F2;
+      	line-height: 4rem;
     	/*position: fixed;
-		top:5rem;
+		top:4rem;
 		left: 0;
 		z-index: 100;*/
     }
