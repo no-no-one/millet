@@ -1,0 +1,1553 @@
+{
+    "code": 0,
+    "result": "ok",
+    "description": "success",
+    "data": {
+        "sections": [
+            {
+                "view_type": "gallery",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2e91790c8596649d8011cef309c0b421.jpg?bg=FFFFFF",
+                            "img_url_webp": "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2e91790c8596649d8011cef309c0b421.jpg?bg=FFFFFF",
+                            "action": {
+                                "type": "product",
+                                "path": "4348",
+                                "log_code": "311415wapchannelgallery001001#rid=d44c850b0e50c8fe8815c69c8ba4d1e9&t=ad&page=channel&pid=4348&adp=262&adm=784"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 720,
+                            "h": 512
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "divider_line",
+                "body": {
+                    "line_color": "#f5f5f5",
+                    "line_height": "24",
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "view_type": "cells_auto_fill",
+                "is_show": "Y",
+                "body": {
+                    "w": 720,
+                    "h": 508,
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/000d335e-d530-66cf-ab15-ba28b3213e63.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/000d335e-d530-66cf-ab15-ba28b3213e63.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "2774",
+                                "log_code": "311415wapchannelcells_auto_fill001003#rid=80357495c60b4f5fe2897484abe10fb1&t=ad&page=channel&pid=2774&adp=263&adm=127"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 358,
+                            "h": 508,
+                            "path_type": "image"
+                        },
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/ff7fd66e-2543-62b7-5ff1-8f10b14e1691.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/ff7fd66e-2543-62b7-5ff1-8f10b14e1691.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4565",
+                                "log_code": "311415wapchannelcells_auto_fill002003#rid=6e171b4a189f5b451f347bf2f2dea07d&t=ad&page=channel&pid=4565&adp=264&adm=128"
+                            },
+                            "x": 362,
+                            "y": 0,
+                            "w": 358,
+                            "h": 252,
+                            "path_type": "image"
+                        },
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/ab8b54ec-b88a-8918-ea69-837123d157e5.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/ab8b54ec-b88a-8918-ea69-837123d157e5.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4738",
+                                "log_code": "311415wapchannelcells_auto_fill003003#rid=0b2fa586095ee2fd64b1927480b00719&t=ad&page=channel&pid=4738&adp=265&adm=129"
+                            },
+                            "x": 362,
+                            "y": 256,
+                            "w": 358,
+                            "h": 252,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "divider_line",
+                "body": {
+                    "line_color": "#f5f5f5",
+                    "line_height": "24",
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "view_type": "cells_auto_fill",
+                "body": {
+                    "w": 720,
+                    "h": 80,
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/9a4125f0-2dd4-b5b4-2652-28482d6a6a01.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/9a4125f0-2dd4-b5b4-2652-28482d6a6a01.webp",
+                            "action": {
+                                "type": "none",
+                                "log_code": "311415wapchannelcells_auto_fill001005#rid=78e215fa4a2a5c3836f37df1e24b61e5&t=normal&page=channel"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 720,
+                            "h": 80,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_one_type12",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img1_url": "http://i8.mifile.cn/v1/a1/ac1e185d-3b75-9982-5f22-5762683dd1a5.webp?bg=2A3935",
+                            "img1_url_webp": "http://i8.mifile.cn/v1/a1/ac1e185d-3b75-9982-5f22-5762683dd1a5.webp?bg=2A3935",
+                            "action": {
+                                "type": "product",
+                                "path": "5468",
+                                "log_code": "311415wapchannellist_one_type12001006#rid=29b0d227338d43109fe44d4ea5f7bd27&t=product&page=channel&pid=5468"
+                            },
+                            "product_id": "5468",
+                            "product1_name": "小蚁微单相机M1 双镜头套机",
+                            "product1_price": "2999",
+                            "product_org_price": "2999",
+                            "product1_brief": "高画质易操作 小白也能轻松专业摄影",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/57912412-70d9-515c-6a6f-1b22cb5ed93e.webp?bg=B2C2CB",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/57912412-70d9-515c-6a6f-1b22cb5ed93e.webp?bg=B2C2CB",
+                            "action": {
+                                "type": "product",
+                                "path": "5183",
+                                "log_code": "311415wapchannellist_two_type1001007#rid=b70c6d771c7bbf2839289677d58a0b28&t=product&page=channel&pid=5183"
+                            },
+                            "product_id": "5183",
+                            "product_name": "小米路由器Pro",
+                            "product_price": "499",
+                            "product_org_price": "499",
+                            "product_brief": "全新一代智能家庭中心",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/85a78a1a-ff71-dab4-8e7d-8119dfce798b.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/85a78a1a-ff71-dab4-8e7d-8119dfce798b.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5296",
+                                "log_code": "311415wapchannellist_two_type1002007#rid=6bbe9e30b521e6fc698814568933fcd3&t=product&page=channel&pid=5296"
+                            },
+                            "product_id": "5296",
+                            "product_name": "米家智能摄像机",
+                            "product_price": "199",
+                            "product_org_price": "199",
+                            "product_brief": "随时看护家的温暖与安全",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/a3856ff1-d79e-cdfc-bfe6-fa372289ecb9.webp?bg=919390",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/a3856ff1-d79e-cdfc-bfe6-fa372289ecb9.webp?bg=919390",
+                            "action": {
+                                "type": "product",
+                                "path": "5469",
+                                "log_code": "311415wapchannellist_two_type1001008#rid=16fa1204c9ce993610f00d2701959d72&t=product&page=channel&pid=5469"
+                            },
+                            "product_id": "5469",
+                            "product_name": "米家全景相机套装 ",
+                            "product_price": "1699",
+                            "product_org_price": "1699",
+                            "product_brief": "抓住每一刻360°的精彩",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/5fcf0769-1485-a856-3ec6-1945c5150968.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/5fcf0769-1485-a856-3ec6-1945c5150968.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5433",
+                                "log_code": "311415wapchannellist_two_type1002008#rid=ac9628fdf04aab5319ba1a571ba136ca&t=product&page=channel&pid=5433"
+                            },
+                            "product_id": "5433",
+                            "product_name": "小米路由器HD",
+                            "product_price": "1299",
+                            "product_org_price": "1299",
+                            "product_brief": "智能家庭中心 内置1TB硬盘",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_one_type12",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img1_url": "http://i8.mifile.cn/v1/a1/aeafd46d-6976-5cee-2e15-5f4f0febdab9.webp?bg=DAC3AD",
+                            "img1_url_webp": "http://i8.mifile.cn/v1/a1/aeafd46d-6976-5cee-2e15-5f4f0febdab9.webp?bg=DAC3AD",
+                            "action": {
+                                "type": "product",
+                                "path": "5500",
+                                "log_code": "311415wapchannellist_one_type12001009#rid=1bdbbd6a5acebd8d188195e7f8b82c3f&t=product&page=channel&pid=5500"
+                            },
+                            "product_id": "5500",
+                            "product1_name": "米家 IH 电饭煲 4L",
+                            "product1_price": "599",
+                            "product1_org_price": "599",
+                            "product1_brief": "智能烹饪，煮出来的米饭口感很棒",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/808b0701-2d62-73e5-0b16-81da5e8ece7c.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/808b0701-2d62-73e5-0b16-81da5e8ece7c.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5299",
+                                "log_code": "311415wapchannellist_two_type1001010#rid=bdd2d7913ac14b5bcf9ad2405e88128f&t=product&page=channel&pid=5299"
+                            },
+                            "product_id": "5299",
+                            "product_name": "小米米家对讲机",
+                            "product_price": "249",
+                            "product_org_price": "249",
+                            "product_brief": "8天超长待机，FM收音机",
+                            "product_tag": "http://i8.mifile.cn/v1/a1/51a2cee2-8fdc-a17c-cbfb-d3c19c9996f6.webp",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0,
+                            "product_tag_webp": "http://i8.mifile.cn/v1/a1/51a2cee2-8fdc-a17c-cbfb-d3c19c9996f6.webp"
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/f093e0a8-e3d8-4fc8-deb7-af25ea3d8663.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/f093e0a8-e3d8-4fc8-deb7-af25ea3d8663.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5251",
+                                "log_code": "311415wapchannellist_two_type1002010#rid=86980f1b113a2df85a2dd492d4ea5d87&t=product&page=channel&pid=5251"
+                            },
+                            "product_id": "5251",
+                            "product_name": "米家行车记录仪",
+                            "product_price": "349",
+                            "product_org_price": "349",
+                            "product_brief": "晚上也可以拍清车牌",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "divider_line",
+                "body": {
+                    "line_color": "#f5f5f5",
+                    "line_height": "24",
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "view_type": "cells_auto_fill",
+                "body": {
+                    "w": 720,
+                    "h": 80,
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/609d2556-433b-1248-d9d0-7de91382f568.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/609d2556-433b-1248-d9d0-7de91382f568.webp",
+                            "action": {
+                                "type": "none",
+                                "log_code": "311415wapchannelcells_auto_fill001012#rid=3bcf7c1ca04b2fcb2657afe5a26e95aa&t=normal&page=channel"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 720,
+                            "h": 80,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_one_type12",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img1_url": "http://i8.mifile.cn/v1/a1/02cd9384-e53b-eace-eca1-27db57a2367a.webp",
+                            "img1_url_webp": "http://i8.mifile.cn/v1/a1/02cd9384-e53b-eace-eca1-27db57a2367a.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5297",
+                                "log_code": "311415wapchannellist_one_type12001013#rid=38a869aa37e74af1eacaa24a73d7f005&t=product&page=channel&pid=5297"
+                            },
+                            "product_id": "5297",
+                            "product1_name": "小米体脂秤",
+                            "product1_price": "199",
+                            "product1_org_price": "199",
+                            "product1_brief": "10 项精准数据检测，身体数据精准掌握",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/28087e94-a2bf-9d6a-fb59-6abb87382cbf.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/28087e94-a2bf-9d6a-fb59-6abb87382cbf.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3806",
+                                "log_code": "311415wapchannellist_two_type1001014#rid=48fc4fa816af424ca48b1230c2af0669&t=product&page=channel&pid=3806"
+                            },
+                            "product_id": "3806",
+                            "product_name": "米家 LED 智能台灯",
+                            "product_price": "169",
+                            "product_org_price": "169",
+                            "product_brief": "照明之上，光的艺术品",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/c22af4a7114219e6c0488b820474eedc.jpg?bg=FFFFFF",
+                            "img_url_webp": "http://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/c22af4a7114219e6c0488b820474eedc.jpg?bg=FFFFFF",
+                            "action": {
+                                "type": "product",
+                                "path": "2723",
+                                "log_code": "311415wapchannellist_two_type1002014#rid=f8d8b75c6dfe64aadfdc147c93c8dca7&t=product&page=channel&pid=2723"
+                            },
+                            "product_id": "2723",
+                            "product_name": "米家小白智能摄像机",
+                            "product_price": "389",
+                            "product_org_price": "399",
+                            "product_brief": "360° 全景拍摄，红外夜视",
+                            "product_tag": "http://i8.mifile.cn/v1/a1/a8e1c04a-8eb0-3d84-0c0b-c105f3829ec6.webp",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0,
+                            "product_tag_webp": "http://i8.mifile.cn/v1/a1/a8e1c04a-8eb0-3d84-0c0b-c105f3829ec6.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/1ea1fb37-2da1-ae02-311e-7928a67a5bb0.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/1ea1fb37-2da1-ae02-311e-7928a67a5bb0.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3398",
+                                "log_code": "311415wapchannellist_two_type1001015#rid=3789ae63d4665eae2b974c0cdf7cc608&t=product&page=channel&pid=3398"
+                            },
+                            "product_id": "3398",
+                            "product_name": "小米空气净化器 2",
+                            "product_price": "699",
+                            "product_org_price": "699",
+                            "product_brief": "10分钟，房间空气焕然一新",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/fd88c85e-d74f-1002-61d0-e001fbb02cf6.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/fd88c85e-d74f-1002-61d0-e001fbb02cf6.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3556",
+                                "log_code": "311415wapchannellist_two_type1002015#rid=dc7235d519905b2810b208ed204f36d7&t=product&page=channel&pid=3556"
+                            },
+                            "product_id": "3556",
+                            "product_name": "米家恒温电水壶",
+                            "product_price": "199",
+                            "product_org_price": "199",
+                            "product_brief": "一杯水的温度，刚刚好",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "divider_line",
+                "body": {
+                    "line_color": "#f5f5f5",
+                    "line_height": "24",
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "view_type": "cells_auto_fill",
+                "body": {
+                    "w": 720,
+                    "h": 80,
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/8ad79f64-2427-3216-f908-1fc3ede32f2a.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/8ad79f64-2427-3216-f908-1fc3ede32f2a.webp",
+                            "action": {
+                                "type": "none",
+                                "log_code": "311415wapchannelcells_auto_fill001017#rid=524731bb37763df212fb3b9899e7037a&t=normal&page=channel"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 720,
+                            "h": 80,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_one_type12",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img1_url": "http://i8.mifile.cn/v1/a1/d6a96c83-d35e-8566-65da-f4291a76d63b.webp",
+                            "img1_url_webp": "http://i8.mifile.cn/v1/a1/d6a96c83-d35e-8566-65da-f4291a76d63b.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3486",
+                                "log_code": "311415wapchannellist_one_type12001018#rid=ec3cdb34af8d4c46bee31d069e43a7e2&t=product&page=channel&pid=3486"
+                            },
+                            "product_id": "3486",
+                            "product1_name": "小米路由器3",
+                            "product1_price": "149",
+                            "product1_org_price": "149",
+                            "product1_brief": "全向高增益4天线，信号更强，七重安全防护",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type3",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/57f00d57-a633-88e1-f164-f9c4492428c6.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/57f00d57-a633-88e1-f164-f9c4492428c6.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4108",
+                                "log_code": "311415wapchannellist_two_type3001019#rid=caa1ea457a00f03df04acb92ad2e333f&t=product&page=channel&pid=4108"
+                            },
+                            "product_id": "4108",
+                            "product_name": "小米路由器 3C 300M",
+                            "product_price": "99",
+                            "product_org_price": "99",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/c303ee6a-536a-efa6-82c0-e0337a2a6c93.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/c303ee6a-536a-efa6-82c0-e0337a2a6c93.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4913",
+                                "log_code": "311415wapchannellist_two_type3002019#rid=31b90077d12490c46d7e1b72ad6070ea&t=product&page=channel&pid=4913"
+                            },
+                            "product_id": "4913",
+                            "product_name": "WiFi放大器2",
+                            "product_price": "49",
+                            "product_org_price": "49",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "divider_line",
+                "body": {
+                    "line_color": "#f5f5f5",
+                    "line_height": "24",
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "view_type": "cells_auto_fill",
+                "body": {
+                    "w": 720,
+                    "h": 80,
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/2d83a0f7-9e4b-a42c-df43-5d457b0fe680.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/2d83a0f7-9e4b-a42c-df43-5d457b0fe680.webp",
+                            "action": {
+                                "type": "none",
+                                "log_code": "311415wapchannelcells_auto_fill001021#rid=fa271a9071874877d0db48591d310c60&t=normal&page=channel"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 720,
+                            "h": 80,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_one_type12",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img1_url": "http://i8.mifile.cn/v1/a1/d6201d36-fe36-bced-95d9-a0595ccad135.webp",
+                            "img1_url_webp": "http://i8.mifile.cn/v1/a1/d6201d36-fe36-bced-95d9-a0595ccad135.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3398",
+                                "log_code": "311415wapchannellist_one_type12001022#rid=d48efdbf08af5a50e522746e5d2c8838&t=product&page=channel&pid=3398"
+                            },
+                            "product_id": "3398",
+                            "product1_name": "小米空气净化器 2",
+                            "product1_price": "699",
+                            "product1_org_price": "699",
+                            "product1_brief": "10分钟，房间空气焕然一新\r\n净化能力高达310m3/h",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/8ef1164d-e1c5-ed1e-f827-b9a201520586.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/8ef1164d-e1c5-ed1e-f827-b9a201520586.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4802",
+                                "log_code": "311415wapchannellist_two_type1001023#rid=74203b4723620b17daa0485dda66d4b7&t=product&page=channel&pid=4802"
+                            },
+                            "product_id": "4802",
+                            "product_name": "米家空气净化器Pro",
+                            "product_price": "1499",
+                            "product_org_price": "1499",
+                            "product_brief": "大空间，快循环",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/b00cc150-343a-cddd-bc81-5eb466b517c3.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/b00cc150-343a-cddd-bc81-5eb466b517c3.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4942",
+                                "log_code": "311415wapchannellist_two_type1002023#rid=73b11bb91a5fefd94b998d4d05bf8b96&t=product&page=channel&pid=4942"
+                            },
+                            "product_id": "4942",
+                            "product_name": "车载空气净化器",
+                            "product_price": "449",
+                            "product_org_price": "449",
+                            "product_brief": "高效净化车里空气焕然一新",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_three_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/d4d97bc6-800e-df5d-475c-a2c83e0b20a4.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/d4d97bc6-800e-df5d-475c-a2c83e0b20a4.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5253",
+                                "log_code": "311415wapchannellist_three_type1001024#rid=970997674737fab12937b4e10311b66b&t=product&page=channel&pid=5253"
+                            },
+                            "product_id": "5253",
+                            "product_name": "净化器滤芯",
+                            "product_price": "159",
+                            "product_org_price": "159",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/5cb1393c-14e6-a687-ed26-aee055d35af4.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/5cb1393c-14e6-a687-ed26-aee055d35af4.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4803",
+                                "log_code": "311415wapchannellist_three_type1002024#rid=818a1a734efd512fd3a4833adac65f4a&t=product&page=channel&pid=4803"
+                            },
+                            "product_id": "4803",
+                            "product_name": "PM2.5检测仪",
+                            "product_price": "399",
+                            "product_org_price": "399",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/5e01f285-c8f9-a49e-7bd3-59d2cce285da.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/5e01f285-c8f9-a49e-7bd3-59d2cce285da.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4665",
+                                "log_code": "311415wapchannellist_three_type1003024#rid=a954685ef4f5acf902dcc7af5ef4d0e5&t=product&page=channel&pid=4665"
+                            },
+                            "product_id": "4665",
+                            "product_name": "净化器滤芯",
+                            "product_price": "169",
+                            "product_org_price": "169",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "divider_line",
+                "body": {
+                    "line_color": "#f5f5f5",
+                    "line_height": "24",
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "view_type": "cells_auto_fill",
+                "body": {
+                    "w": 720,
+                    "h": 80,
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/7d67f41a-27fb-b4da-4464-78af687b318c.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/7d67f41a-27fb-b4da-4464-78af687b318c.webp",
+                            "action": {
+                                "type": "none",
+                                "log_code": "311415wapchannelcells_auto_fill001026#rid=6bec05ce6a621bdecc2b660e6174a740&t=normal&page=channel"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 720,
+                            "h": 80,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_one_type12",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img1_url": "http://i8.mifile.cn/v1/a1/e70cee4f-e1fd-0f0b-8d3b-e695d0b42323.webp",
+                            "img1_url_webp": "http://i8.mifile.cn/v1/a1/e70cee4f-e1fd-0f0b-8d3b-e695d0b42323.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "2723",
+                                "log_code": "311415wapchannellist_one_type12001027#rid=7e36eebb5f73893cc9f3dc199755ab48&t=product&page=channel&pid=2723"
+                            },
+                            "product_id": "2723",
+                            "product1_name": "米家小白智能摄像机",
+                            "product1_price": "389",
+                            "product1_org_price": "399",
+                            "product1_brief": "360度1080P全方位拍摄，语音控制米家智能设备",
+                            "product_tag": "http://i8.mifile.cn/v1/a1/a8e1c04a-8eb0-3d84-0c0b-c105f3829ec6.webp",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0,
+                            "product_tag_webp": "http://i8.mifile.cn/v1/a1/a8e1c04a-8eb0-3d84-0c0b-c105f3829ec6.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type3",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/be423a22-5c37-ddf1-e2ef-8d169b4c0a98.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/be423a22-5c37-ddf1-e2ef-8d169b4c0a98.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5145",
+                                "log_code": "311415wapchannellist_two_type3001028#rid=d6a49d0563f37c913a35889a7d00780b&t=product&page=channel&pid=5145"
+                            },
+                            "product_id": "5145",
+                            "product_name": "小方智能摄像机",
+                            "product_price": "129",
+                            "product_org_price": "129",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/9f9b3fde-a94a-805f-2467-910a38c1572f.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/9f9b3fde-a94a-805f-2467-910a38c1572f.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "2998",
+                                "log_code": "311415wapchannellist_two_type3002028#rid=ddb5dc47a001a2439c043d7a2ec0db3c&t=product&page=channel&pid=2998"
+                            },
+                            "product_id": "2998",
+                            "product_name": "智能插座",
+                            "product_price": "49",
+                            "product_org_price": "49",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "divider_line",
+                "body": {
+                    "line_color": "#f5f5f5",
+                    "line_height": "24",
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "view_type": "cells_auto_fill",
+                "body": {
+                    "w": 720,
+                    "h": 80,
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/05bb6f5a-7c88-be8d-a5e3-ffd5d44f0191.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/05bb6f5a-7c88-be8d-a5e3-ffd5d44f0191.webp",
+                            "action": {
+                                "type": "none",
+                                "log_code": "311415wapchannelcells_auto_fill001030#rid=828873aeba49b1193ddfddd919069c47&t=normal&page=channel"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 720,
+                            "h": 80,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_one_type12",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img1_url": "http://i8.mifile.cn/v1/a1/65a28abc-b3bb-f022-0f90-fb241333e02b.webp",
+                            "img1_url_webp": "http://i8.mifile.cn/v1/a1/65a28abc-b3bb-f022-0f90-fb241333e02b.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3556",
+                                "log_code": "311415wapchannellist_one_type12001031#rid=7bc5767bbdb02613330cb00f85054b7e&t=product&page=channel&pid=3556"
+                            },
+                            "product_id": "3556",
+                            "product1_name": "米家恒温电水壶",
+                            "product1_price": "199",
+                            "product1_org_price": "199",
+                            "product1_brief": "水温智能控制，快速沸腾，三重安全保护",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type3",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/720a5a36-551c-7c71-b1f8-15ff7cf95776.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/720a5a36-551c-7c71-b1f8-15ff7cf95776.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3377",
+                                "log_code": "311415wapchannellist_two_type3001032#rid=d4ef794175539cbf5522f80e7b1c0cfd&t=product&page=channel&pid=3377"
+                            },
+                            "product_id": "3377",
+                            "product_name": "小米净水器（厨下式）",
+                            "product_price": "1999",
+                            "product_org_price": "1999",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/be751b81-74a5-0c4d-93b3-ab3b152b711f.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/be751b81-74a5-0c4d-93b3-ab3b152b711f.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "2705",
+                                "log_code": "311415wapchannellist_two_type3002032#rid=0e45a3b9baf2806745e061e63a1bd2b6&t=product&page=channel&pid=2705"
+                            },
+                            "product_id": "2705",
+                            "product_name": "净水器滤芯",
+                            "product_price": "59",
+                            "product_org_price": "59",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0,
+                            "show_price_qi": true
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "divider_line",
+                "body": {
+                    "line_color": "#f5f5f5",
+                    "line_height": "24",
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "view_type": "list_two_type2",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/79b1b04f-1a71-1c23-0e78-d4aa2ecae037.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/79b1b04f-1a71-1c23-0e78-d4aa2ecae037.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "2387",
+                                "log_code": "311415wapchannellist_two_type2001034#rid=a0526cb68329b97db6f67e86fcf8c8a4&t=product&page=channel&pid=2387"
+                            },
+                            "product_id": "2387",
+                            "product_name": "水质检测笔     ",
+                            "product_price": "39",
+                            "product_org_price": "39",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/c0410fc3-0217-0bc3-b893-d05679142cf8.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/c0410fc3-0217-0bc3-b893-d05679142cf8.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "2392",
+                                "log_code": "311415wapchannellist_two_type2002034#rid=2b5fd2dedf6ee8e251353d79a24bb01f&t=product&page=channel&pid=2392"
+                            },
+                            "product_id": "2392",
+                            "product_name": "小米净水器（厨上式）",
+                            "product_price": "1299",
+                            "product_org_price": "1299",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_one_type12",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img1_url": "http://i8.mifile.cn/v1/a1/4f3cb262-b746-7dcc-1b7f-1728fd68473c.webp",
+                            "img1_url_webp": "http://i8.mifile.cn/v1/a1/4f3cb262-b746-7dcc-1b7f-1728fd68473c.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3488",
+                                "log_code": "311415wapchannellist_one_type12001035#rid=ee83d2ec7122b92b10af08bc60c3df3d&t=product&page=channel&pid=3488"
+                            },
+                            "product_id": "3488",
+                            "product1_name": "米家压力IH电饭煲",
+                            "product1_price": "999",
+                            "product1_org_price": "999",
+                            "product1_brief": "幸福的味道，有点甜",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "cells_auto_fill",
+                "body": {
+                    "w": 720,
+                    "h": 80,
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/7831585a-dbdf-61ee-c371-9ebed9d57e11.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/7831585a-dbdf-61ee-c371-9ebed9d57e11.webp",
+                            "action": {
+                                "type": "none",
+                                "log_code": "311415wapchannelcells_auto_fill001036#rid=f0b51b9acee9455454fd77281d7a7d8f&t=normal&page=channel"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 720,
+                            "h": 80,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_one_type12",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img1_url": "http://i8.mifile.cn/v1/a1/277ff46b-0e45-7d9b-ded8-fd0765bb3b1a.webp?bg=BEBFC4",
+                            "img1_url_webp": "http://i8.mifile.cn/v1/a1/277ff46b-0e45-7d9b-ded8-fd0765bb3b1a.webp?bg=BEBFC4",
+                            "action": {
+                                "type": "product",
+                                "path": "2774",
+                                "log_code": "311415wapchannellist_one_type12001037#rid=8a4cee878ad3c395e328277002bfefff&t=product&page=channel&pid=2774"
+                            },
+                            "product_id": "2774",
+                            "product1_name": "九号平衡车",
+                            "product1_price": "1999",
+                            "product1_org_price": "1999",
+                            "product1_brief": "年轻人的酷玩具，骑行遥控两种玩法",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/eebdb591-381c-e0a7-9574-5cb5b47482cf.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/eebdb591-381c-e0a7-9574-5cb5b47482cf.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4984",
+                                "log_code": "311415wapchannellist_two_type1001038#rid=be3ba7bdee6ac7b93d4e5769c57be60e&t=product&page=channel&pid=4984"
+                            },
+                            "product_id": "4984",
+                            "product_name": "小米米家电动滑板车",
+                            "product_price": "1999",
+                            "product_org_price": "1999",
+                            "product_brief": "便携折叠，自由穿行",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/0a3f9ce4-a265-7c06-16c3-0c03a64e24bf.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/0a3f9ce4-a265-7c06-16c3-0c03a64e24bf.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3922",
+                                "log_code": "311415wapchannellist_two_type1002038#rid=277513e008530f8b93c7b45210e6589e&t=product&page=channel&pid=3922"
+                            },
+                            "product_id": "3922",
+                            "product_name": "电助力折叠自行车",
+                            "product_price": "2999",
+                            "product_org_price": "2999",
+                            "product_brief": "力矩传感电助力 ",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "divider_line",
+                "body": {
+                    "line_color": "#f5f5f5",
+                    "line_height": "24",
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "view_type": "cells_auto_fill",
+                "body": {
+                    "w": 720,
+                    "h": 80,
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/3d4be968-146b-b244-66f5-e37a37002cba.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/3d4be968-146b-b244-66f5-e37a37002cba.webp",
+                            "action": {
+                                "type": "none",
+                                "log_code": "311415wapchannelcells_auto_fill001040#rid=11b0b97553a7b1e7d120498bffe7a1e0&t=normal&page=channel"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 720,
+                            "h": 80,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_one_type12",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img1_url": "http://i8.mifile.cn/v1/a1/8a9f8ff1-108b-ad3a-9cb9-b02ce64415e8.webp",
+                            "img1_url_webp": "http://i8.mifile.cn/v1/a1/8a9f8ff1-108b-ad3a-9cb9-b02ce64415e8.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "1945",
+                                "log_code": "311415wapchannellist_one_type12001041#rid=62171d2acace9085884468d5b7c15d4f&t=product&page=channel&pid=1945"
+                            },
+                            "product_id": "1945",
+                            "product1_name": "小米体重秤 智能分析自动识别",
+                            "product1_price": "99",
+                            "product1_org_price": "99",
+                            "product1_brief": "高精度压力传感器，手机管理全家健康",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/b036963b-4b5a-c372-d707-2d2f11bd3f3f.webp?bg=E5EBF3",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/b036963b-4b5a-c372-d707-2d2f11bd3f3f.webp?bg=E5EBF3",
+                            "action": {
+                                "type": "product",
+                                "path": "2703",
+                                "log_code": "311415wapchannellist_two_type1001042#rid=34fd1b2ead1605c97dc8d9b53af96fe2&t=product&page=channel&pid=2703"
+                            },
+                            "product_id": "2703",
+                            "product_name": "iHealth智能血压计",
+                            "product_price": "199",
+                            "product_org_price": "199",
+                            "product_brief": "送给父母的健康礼物",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/3c866ab8-1795-23d6-78ae-eacc29f81cd2.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/3c866ab8-1795-23d6-78ae-eacc29f81cd2.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3674",
+                                "log_code": "311415wapchannellist_two_type1002042#rid=4a8bf220a351cb58220dafb8e06acef8&t=product&page=channel&pid=3674"
+                            },
+                            "product_id": "3674",
+                            "product_name": "米家iHealth血压计",
+                            "product_price": "379",
+                            "product_org_price": "399",
+                            "product_brief": "爸妈上手就会用的血压计",
+                            "product_tag": "http://i8.mifile.cn/v1/a1/a8e1c04a-8eb0-3d84-0c0b-c105f3829ec6.webp",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0,
+                            "product_tag_webp": "http://i8.mifile.cn/v1/a1/a8e1c04a-8eb0-3d84-0c0b-c105f3829ec6.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "divider_line",
+                "body": {
+                    "line_color": "#f5f5f5",
+                    "line_height": "24",
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "view_type": "cells_auto_fill",
+                "body": {
+                    "w": 720,
+                    "h": 80,
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/fb971244-70b3-25b0-74be-a6632db61f3a.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/fb971244-70b3-25b0-74be-a6632db61f3a.webp",
+                            "action": {
+                                "type": "none",
+                                "log_code": "311415wapchannelcells_auto_fill001044#rid=a03246735f68a12b2157e79570e7f494&t=normal&page=channel"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 720,
+                            "h": 80,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/51cb366f-c6a2-5767-053d-633c1c5a5f1c.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/51cb366f-c6a2-5767-053d-633c1c5a5f1c.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3807",
+                                "log_code": "311415wapchannellist_two_type1001045#rid=47c1a002ebbe4af027d73d42df5b7c07&t=product&page=channel&pid=3807"
+                            },
+                            "product_id": "3807",
+                            "product_name": "米兔智能故事机 ",
+                            "product_price": "199",
+                            "product_org_price": "199",
+                            "product_brief": "能说会道，宝宝的好玩伴",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/5847bc13-6075-f588-cce6-c8b9585f93d0.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/5847bc13-6075-f588-cce6-c8b9585f93d0.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4717",
+                                "log_code": "311415wapchannellist_two_type1002045#rid=fd9ef37864eb3daf443fe063f3690c0b&t=product&page=channel&pid=4717"
+                            },
+                            "product_id": "4717",
+                            "product_name": "米兔儿童手表Q",
+                            "product_price": "249",
+                            "product_org_price": "299",
+                            "product_brief": "实时精准定位，食品级材质",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type3",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/aaffc979-082f-f3c0-e22b-1233a50077c2.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/aaffc979-082f-f3c0-e22b-1233a50077c2.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4674",
+                                "log_code": "311415wapchannellist_two_type3001046#rid=0b0469ff033ea3f65ad3b2ba9bd93dbf&t=product&page=channel&pid=4674"
+                            },
+                            "product_id": "4674",
+                            "product_name": "米兔积木机器人",
+                            "product_price": "499",
+                            "product_org_price": "499",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/f38a39ad-b8cc-67bf-b2d0-5974939140a3.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/f38a39ad-b8cc-67bf-b2d0-5974939140a3.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4072",
+                                "log_code": "311415wapchannellist_two_type3002046#rid=b0968bf897bc044944919d05f88b61d4&t=product&page=channel&pid=4072"
+                            },
+                            "product_id": "4072",
+                            "product_name": "定位电话",
+                            "product_price": "169",
+                            "product_org_price": "169",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "divider_line",
+                "body": {
+                    "line_color": "#f5f5f5",
+                    "line_height": "24",
+                    "w": 0,
+                    "h": 0
+                }
+            },
+            {
+                "view_type": "cells_auto_fill",
+                "body": {
+                    "w": 720,
+                    "h": 80,
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/eb1174ea-0eb2-81ad-1f74-40a5abe9d0ad.webp",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/eb1174ea-0eb2-81ad-1f74-40a5abe9d0ad.webp",
+                            "action": {
+                                "type": "none",
+                                "log_code": "311415wapchannelcells_auto_fill001048#rid=c210b20f45a591ae749ae253f6a5caca&t=normal&page=channel"
+                            },
+                            "x": 0,
+                            "y": 0,
+                            "w": 720,
+                            "h": 80,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_one_type12",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img1_url": "http://i8.mifile.cn/v1/a1/87f64061-3c36-83be-40e0-7b4d0d7a8725.webp",
+                            "img1_url_webp": "http://i8.mifile.cn/v1/a1/87f64061-3c36-83be-40e0-7b4d0d7a8725.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3806",
+                                "log_code": "311415wapchannellist_one_type12001049#rid=12778970190c97bcbe4f0fa95fbb9e92&t=product&page=channel&pid=3806"
+                            },
+                            "product_id": "3806",
+                            "product1_name": "米家 LED 智能台灯",
+                            "product1_price": "169",
+                            "product1_org_price": "169",
+                            "product1_brief": "无可视频闪，亮度色温无级调节，四种场景调光",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_two_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/7441815c-10e6-8811-d87a-3b7355e8a7e7.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/7441815c-10e6-8811-d87a-3b7355e8a7e7.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5008",
+                                "log_code": "311415wapchannellist_two_type1001050#rid=aeeca8f31b40fcc7cd28abcaf076a252&t=product&page=channel&pid=5008"
+                            },
+                            "product_id": "5008",
+                            "product_name": "米家智能插座",
+                            "product_price": "69",
+                            "product_org_price": "69",
+                            "product_brief": "超智能的插座",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/23dbaaee-0dd5-e800-464b-83b584a950be.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/23dbaaee-0dd5-e800-464b-83b584a950be.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "2785",
+                                "log_code": "311415wapchannellist_two_type1002050#rid=ec333ab9feba9cc86c7042d92168fa5a&t=product&page=channel&pid=2785"
+                            },
+                            "product_id": "2785",
+                            "product_name": "Yeelight智能灯泡",
+                            "product_price": "99",
+                            "product_org_price": "99",
+                            "product_brief": "亮度自由调节",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_three_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/e155b6c3-8610-4bd3-2158-cea74ae33182.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/e155b6c3-8610-4bd3-2158-cea74ae33182.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "4949",
+                                "log_code": "311415wapchannellist_three_type1001051#rid=3f3512bbc595ce23093c7f2d92d02959&t=product&page=channel&pid=4949"
+                            },
+                            "product_id": "4949",
+                            "product_name": "多功能网关",
+                            "product_price": "149",
+                            "product_org_price": "149",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/35634df6-31b0-d99f-b095-a15f98328070.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/35634df6-31b0-d99f-b095-a15f98328070.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5009",
+                                "log_code": "311415wapchannellist_three_type1002051#rid=8e86307c8f9b142ee2a2ba5d55f64d91&t=product&page=channel&pid=5009"
+                            },
+                            "product_id": "5009",
+                            "product_name": "温湿度传感器",
+                            "product_price": "49",
+                            "product_org_price": "49",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/a20d05e5-b454-3f4d-a532-4683fafa14d7.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/a20d05e5-b454-3f4d-a532-4683fafa14d7.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5005",
+                                "log_code": "311415wapchannellist_three_type1003051#rid=cbb150abc18646f3dcef2feeb0b2a9e4&t=product&page=channel&pid=5005"
+                            },
+                            "product_id": "5005",
+                            "product_name": "人体传感器",
+                            "product_price": "59",
+                            "product_org_price": "59",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "view_type": "list_three_type1",
+                "body": {
+                    "w": 0,
+                    "h": 0,
+                    "items": [
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/ad4197da-8b42-72ee-ba95-d70569e80d1d.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/ad4197da-8b42-72ee-ba95-d70569e80d1d.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5010",
+                                "log_code": "311415wapchannellist_three_type1001052#rid=5ed50ebcffc1f7ab75a3609013109cfd&t=product&page=channel&pid=5010"
+                            },
+                            "product_id": "5010",
+                            "product_name": "门窗传感器",
+                            "product_price": "49",
+                            "product_org_price": "49",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/39ec82e7-d4a1-45dd-5974-696ea3ef0b85.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/39ec82e7-d4a1-45dd-5974-696ea3ef0b85.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "5006",
+                                "log_code": "311415wapchannellist_three_type1002052#rid=e6353b216a76efce626d73bf95af8d15&t=product&page=channel&pid=5006"
+                            },
+                            "product_id": "5006",
+                            "product_name": "米家无线开关",
+                            "product_price": "39",
+                            "product_org_price": "39",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        },
+                        {
+                            "img_url": "http://i8.mifile.cn/v1/a1/a69a6d6c-7e7f-5f8d-0d5e-995ce5907cd0.webp",
+                            "img_url_webp": "http://i8.mifile.cn/v1/a1/a69a6d6c-7e7f-5f8d-0d5e-995ce5907cd0.webp",
+                            "action": {
+                                "type": "product",
+                                "path": "3780",
+                                "log_code": "311415wapchannellist_three_type1003052#rid=bcfd1a014435a4a379914b634f82e74c&t=product&page=channel&pid=3780"
+                            },
+                            "product_id": "3780",
+                            "product_name": "魔方控制器",
+                            "product_price": "69",
+                            "product_org_price": "69",
+                            "x": 0,
+                            "y": 0,
+                            "w": 0,
+                            "h": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
