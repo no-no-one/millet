@@ -103,25 +103,13 @@ window.onscroll=function(){
 		else{
 			channel_top.style.display="block";
 		}
-	}
-
-window.onscroll=function(){
-		// var channel_top=document.querySelector(".channel_top");
-		var channel_head_search=document.querySelector(".channel_head_search");
-		var disss=window.scrollTop||document.body.scrollTop||document.documentElement.scrollTop;
-		if(disss>=0&&disss<=6){
+		if(diss>=0&&diss<=6){
 			channel_head_search.style.background="";
 		}
 		else{
 			channel_head_search.style.background="white";
 		}
 	}
-
-// var channel_top_btn=document.querySelector(".channel_top_btn");
-// channel_top_btn.onclick=function(e){
-// 	e.preventDafault();
-// 	document.body.scrollTop=0;
-// }
 </script>
 <style>
 	.channel_head{
