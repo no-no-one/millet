@@ -46,6 +46,7 @@
 	   				<div class="specTitle">购买数量
 	   				</div>
 	   				<div class="addNum">
+<<<<<<< HEAD
 	   					<div class="sub">
 		   					<div class="input-sub off">
 		   						
@@ -54,6 +55,17 @@
 	   					<div class="num input-num">1</div>
 	   					<div class="add">
 	   						<div class="input-add"></div>
+=======
+	   					<div class="sub" @click="clickSubfun(pro)">
+
+		   					<div class="input-sub off" >
+		   						
+		   					</div>
+	   					</div>
+	   					<div class="num input-num">{{showNum}}</div>
+	   					<div class="add">
+	   						<div class="input-add" @click="clickAddfun(pro)"></div>
+>>>>>>> cart
 	   					</div>
 	   				</div>
 	   			</div>
@@ -61,7 +73,10 @@
 	   		</div>
 	   	</div>
    </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> cart
 </template>
 <script>
 import Vue from "vue"
@@ -74,13 +89,37 @@ import Vue from "vue"
 			return {			 
 			  proDetailData:[],
 			  pro:Bus.todos,
+<<<<<<< HEAD
 			  isBol:false			 
+=======
+			  isBol:false,
+              showNum:1,
+              shopmoney:0			 
+>>>>>>> cart
 			}
 		},
 		methods:{
 			showModel:function(){
 				this.isBol=!this.isBol;
+<<<<<<< HEAD
 			}
+=======
+			},
+            clickAddfun:function(a){
+                this.showNum+=1;
+                Bus.$emit("addshop",a)
+                console.log(Bus.cartData)
+            },
+            clickSubfun:function(b){
+                this.showNum-=1;
+                Bus.$emit("deleshop",b)
+                console.log(Bus.cartData);
+                console.log(this.showNum)
+                if(this.showNum<1){
+                    this.showNum=1
+                }
+            }
+>>>>>>> cart
 		},		
 		mounted (){
 		//请求数据

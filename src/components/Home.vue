@@ -1,13 +1,23 @@
 <template lang="html">
+<<<<<<< HEAD
    <body class="home">
+=======
+   <body id="box">
+>>>>>>> cart
 
 		<header>
 			<div class="logo">
 				<img src="http://m.mi.com/component/header/img/logo_e6453b2.png">
 			</div>
+<<<<<<< HEAD
 			<router-link to="/home/search">
 				<div class="search_bar">			
 					<span class="cartserch">搜索商品名称</span>			
+=======
+			<router-link to="cartserch">
+				<div class="search_bar">			 
+					<span class="search_name">搜索商品名称</span>			
+>>>>>>> cart
 				</div>
 			</router-link>
 			<div class="login">
@@ -71,9 +81,15 @@
 		
 			<dl class="item" v-for="x in starData">
 				<div class="item_inner" v-for="n in x.body.items">												
+<<<<<<< HEAD
 					<a  @click.prevent="showDetail(n)">
 						<dt class="item_img" >					
 							<img :src="n.img_url" alt="">
+=======
+					<a href="#/proDetail" @click="showDetail(n)">
+						<dt class="item_img" >					
+							<router-link to="/home/proDetail"><img :src="n.img_url" alt=""></router-link>
+>>>>>>> cart
 						</dt>
 						<dd class="info">
 							<div class="name">{{n.product_name}}</div>
@@ -118,6 +134,11 @@
 			  <area shape="circle" coords="180,139,14" href="venus.htm" alt="Venus" />
 			</map>	
 		</div>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> cart
 	</body>
 
 </template>
@@ -143,8 +164,11 @@
 		methods:{
 			showDetail:function(pro){
 				Bus.$emit("add",pro);
+<<<<<<< HEAD
 				// location.href = "#/home/proDetail"
 				this.$router.push("/home/proDetail")
+=======
+>>>>>>> cart
 				console.log(Bus.todos)
 			}
 		},
@@ -194,6 +218,7 @@
 <style>
 @import "../../static/swiper/css/swiper.min.css";
 
+<<<<<<< HEAD
 .home{
 	margin-bottom: 20rem;
 }
@@ -206,15 +231,36 @@
 }
 
 .home .opacity-enter-active,.opacity-leave-active{
+=======
+
+.swiper1{
+	text-align: right;
+	margin-right: 1rem;
+}
+.swiper-pagination-bullet-active{
+	background: #fff;
+}
+#box{
+	margin-bottom: 20rem;
+}
+.opacity-enter-active,.opacity-leave-active{
+>>>>>>> cart
 				transition:all 2s;
 			}
 			.opacity-enter,.opacity-leave-active{
 				opacity: 0;
 			}
+<<<<<<< HEAD
 .home img{
 	display: block;
 }
 .home header{
+=======
+img{
+	display: block;
+}
+header{
+>>>>>>> cart
 	width: 100%;
 	height: 3.5rem;
 	text-align: center;
@@ -230,11 +276,19 @@
 	align-items: center;
 	z-index: 500;
 }
+<<<<<<< HEAD
 .home .logo img{
 	width: 2.2rem;
 	height: 1.4rem;
 }
 .home .search_bar{
+=======
+.logo img{
+	width: 2.2rem;
+	height: 1.4rem;
+}
+.search_bar{
+>>>>>>> cart
 	width: 25rem;
 	height: 2.2rem;
 	border-radius: .3rem;
@@ -244,16 +298,25 @@
 	align-items: center;
 	justify-content:flex-start;
 }
+<<<<<<< HEAD
 .home .text{
 	color:#fff;
 	font-size: 1.5rem;
 }
 .home .search_name{
+=======
+.text{
+	color:#fff;
+	font-size: 1.5rem;
+}
+.search_name{
+>>>>>>> cart
 	color:rgba(0,0,0,.3);
 	font-size: 1.2rem;
 	margin-left: 2.5rem;
 }
 /*轮播图*/
+<<<<<<< HEAD
 .home .banner{
 	width: 100%;
 }
@@ -262,6 +325,16 @@
 }
 /*早报*/
 .home .newPaper{
+=======
+.banner{
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+}
+/*早报*/
+.newPaper{
+>>>>>>> cart
 	width: 100%;
 	height: auto;
 	display: flex;
@@ -269,6 +342,7 @@
 	align-items: center;
 	border-bottom: .5rem solid #f5f5f5;
 }
+<<<<<<< HEAD
 .home .img{
 	width: 8rem;	
 }
@@ -281,40 +355,78 @@
 	color: #b2b2b2;
 }
 .home .newPaper_tit{
+=======
+.img{
+	width: 8rem;	
+}
+.img img{
+	width: 7rem;
+	margin-top: .5rem
+}
+.slide{
+	width: 1px;
+	color: #b2b2b2;
+}
+.newPaper_tit{
+>>>>>>> cart
 	margin-left: 1rem;
 	font-size: 1.5rem;
 	color:#000;
 	height: 1.5rem;
 }
+<<<<<<< HEAD
 .home .newPro{
 	width: 100%;
 	height: 40rem;
 }
 .home .miNote{
+=======
+.newPro{
+	width: 100%;
+	height: 40rem;
+}
+.miNote{
+>>>>>>> cart
 	height: 66%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom: .5rem;
 }
+<<<<<<< HEAD
 .home .miNote>img{
 	width: 49.5%;
 }
 .home .miNote_r{
+=======
+.miNote>img{
+	width: 49.5%;
+}
+.miNote_r{
+>>>>>>> cart
 	width: 49.5%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
+<<<<<<< HEAD
 .home .miNote_r img{
 	width: 100%;
 	height: 49.5%;
 }
 .home .miMix img{
+=======
+.miNote_r img{
+	width: 100%;
+	height: 49.5%;
+}
+.miMix img{
+>>>>>>> cart
 	width: 100%;
 	height: 30%;
 }
 /*明星单品*/
+<<<<<<< HEAD
 .home .detail_inner{
 	border-top: 1rem solid #f5f5f5;
 	width:100%;
@@ -323,16 +435,31 @@
     width: 100%;
 }
 .home .d_i_title img{
+=======
+.detail_inner{
+	border-top: 1rem solid #f5f5f5;
+	width: 40rem;
+}
+.d_i_title{
+    width: 100%;
+}
+.d_i_title img{
+>>>>>>> cart
 	width: 100%;
 	height: auto;
 	margin-bottom: .2rem;
 }
+<<<<<<< HEAD
 .home .item{
+=======
+.item{
+>>>>>>> cart
 	width: 49.5%;
 	margin-right: .1rem;
     float: left;
 }
 
+<<<<<<< HEAD
 .home .item_img{
 	width: 100%;
 	height: auto;
@@ -342,11 +469,26 @@
 	height: auto;
 }
 .home .info{
+=======
+.item_img{
+	width: 100%;
+	height: auto;
+}
+.item_img img{
+	width: 100%;
+	height: auto;
+}
+.info{
+>>>>>>> cart
 	width: 50%;
 	padding:.5rem 1rem;
 
 }
+<<<<<<< HEAD
 .home .name {
+=======
+.name {
+>>>>>>> cart
     font-size: 1.6rem;
     font-weight: 100;
     color: rgba(0,0,0,.87);
@@ -354,7 +496,11 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+<<<<<<< HEAD
 .home .brief {
+=======
+.brief {
+>>>>>>> cart
     margin-top: .4rem;
     font-size: 1.4rem;
     line-height: 1.4rem;
@@ -363,14 +509,22 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+<<<<<<< HEAD
 .home .price {
+=======
+.price {
+>>>>>>> cart
     font-size: 1.6rem;
     color: #ff6000;
     margin-top: .4rem;
     position: relative;
     margin-left: .8rem;
 }
+<<<<<<< HEAD
 .home .price::before {
+=======
+.price::before {
+>>>>>>> cart
     content: "￥";
     position: absolute;
     left: -.8rem;
@@ -379,7 +533,11 @@
     margin-right: .5rem;
     font-weight: 400;
 }
+<<<<<<< HEAD
 .home .more{
+=======
+.more{
+>>>>>>> cart
 	width: 100%;
 	height: 4rem;
 	line-height: 4rem;
@@ -388,6 +546,7 @@
 	color: rgba(0,0,0,.5);
 	border-bottom: .5rem solid #f5f5f5;
 }
+<<<<<<< HEAD
 .home .smart_inner{
     width: 100%;
 }
@@ -399,21 +558,46 @@
     float: left;
 }
 .home .smart_inner .info{
+=======
+.smart_inner{
+    width: 100%;
+}
+.smart_img{
+    width: 50%;
+}
+.smart_img img{
+    width: 100%;
+    float: left;
+}
+.smart_inner .info{
+>>>>>>> cart
     float: right;
     box-sizing: border-box;
     padding:3rem 1rem 0 2.5rem;
 }
+<<<<<<< HEAD
 .home .smart_inner .brief{
+=======
+.smart_inner .brief{
+>>>>>>> cart
     width: 100%;
     white-space: pre-wrap;
     word-wrap: break-word;
 }
 /*广告*/
+<<<<<<< HEAD
 .home .ad{
     width: 100%;
     height: 5rem;
 }
 .home .ad img{
+=======
+.ad{
+    width: 100%;
+    height: 5rem;
+}
+.ad img{
+>>>>>>> cart
     width: 100%;
     height: auto;
     margin-bottom: 4rem;
