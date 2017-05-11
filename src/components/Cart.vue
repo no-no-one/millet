@@ -12,7 +12,7 @@
         </li>
       </ul>
     </div>
-    <div class="cart_mian">
+    <div class="cart_mian" v-if="isShow">
       <div class="cart_go">
         <router-link to="/">
             <img src="../assets/shop.png">
@@ -32,37 +32,37 @@
       </div>
     </div>
     <!-- 增加购物车后的页面 -->
-    <div class="cart_shop_main">
+    <div class="cart_shop_main" v-else>
       <div class="cart_shop">
-        <router-link to="/">
+        <a v-for="x in getHomeData">
           <ul>
             <li>
               <img src="../assets/car_check.png">
             </li>
             <li>
-              <img src="../assets/pone.jpg">
+              <img :src="x.img_url">
             </li>
             <li>
-              <p>红米4X全网通版2GB内存 香槟 16GB</p>
-              <p>售价:2599元</p>
+              <p>{{x.product_name}}</p>
+              <p>售价:{{x.product_price}}</p>
               <p>
-                <span class="input-sub">-</span>
-                <span class="input-num">1</span>
-                <span class="input-add">+</span>
+                <span class="input-sub" @click="clickSubshopfun(x)">-</span>
+                <span class="input-num">{{x.count}}</span>
+                <span class="input-add" @click="clickAddshopfun(x)">+</span>
               </p>
             </li>
-            <img src="../assets/dele.gif">
+            <img src="../assets/dele.gif"  @click="deleFun(x)">
           </ul>
-        </router-link>
+        </a>
         <p>
             温馨提示：产品是否购买成功,以最准下单为准,请尽快结算
         </p>
       </div>
       <div class="cart_footer">
         <div class="cart_total">
-          <p>共3件 金额：</p>
+          <p>共{{getcountNum.length}}件 金额：</p>
           <p>
-            <span>5097.00</span>
+            <span>{{getMoney}}</span>
             <span>元</span>
           </p>
         </div>
@@ -79,11 +79,16 @@
 <script>
 import Vue from "vue"
 import VueResource from "vue-resource"
+import Bus from "../../static/js/bus.js"
 Vue.use(VueResource)
 export default{
   data(){
     return {
-      itemData:[]
+      getHomeData:Bus.cartData,
+      itemData:[],
+      isShow:Bus.isShow,
+      getMoney:Bus.money,
+      getcountNum:Bus.ShowData
     }
   },
   mounted(){
@@ -92,6 +97,49 @@ export default{
     .then(function(response){
       this.itemData =response.body.data.recom_list
     })
+    if(this.getHomeData.length==0){
+      this.isShow=true;
+    }
+  },
+  methods:{
+
+    clickSubshopfun:function(item){ 
+      this.getMoney-=item.product_price*1
+      item.count = item.count && item.count>0 && (item.count-1);
+        this.getcountNum.splice(item,1);
+        console.log(Bus.ShowData.length)
+        if(this.getcountNum.length==0){
+          this.isShow=true;
+        }
+       if(item.count<=0){          
+         for(var i=0;i< this.getHomeData.length;i++){        
+            if(this.getHomeData[i].product_name==item.product_name){                   
+              this.getHomeData.splice(i,1)                 
+            }
+         }
+       }          
+    },
+    clickAddshopfun:function(item){
+      item.count = item.count+1;
+      this.getMoney+=item.product_price*1
+      console.log(item)
+      console.log(item.count);
+      this.getcountNum.push(item)
+
+    },
+    deleFun:function(item){
+      for(var i=0;i< this.getHomeData.length;i++){        
+                  if(this.getHomeData[i].product_name==item.product_name){   
+                    this.getHomeData.splice(i,1);
+                    this.getcountNum.length-=item.count;
+                    if(this.getcountNum.length==0){
+                    this.isShow=true;
+                    }
+                    console.log(Bus.ShowData.length)
+
+                  }
+               }
+    }
   }
 }
 </script>

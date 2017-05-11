@@ -17,6 +17,7 @@
 	   		</div>
 	   		
 	   	</div>
+	   
 	   	<div class="proPic">	
 	   		<img :src="pro.img_url" alt="">		        
 		    
@@ -32,27 +33,73 @@
 	   	</div>
 	   	<div class="detailFooter">
 	   		<ul>
-		   		<li class="detailfooter_sy"><a href="" class='black'>首页</a></li>		       
-			    <li class="detailfooter_gwc"><a href="" class='black' >购物车</a></li> 
-			    <li class="detailfooter_addgwc"><a href="" class="white"  @click.prevent="showModel()">加入购物车</a></li> 
-			    <li class="detailfooter_shop"><a href="" class="white">立刻购买</a></li> 
+		   		<!-- <li class="detailfooter_sy">
+                    <a href="" class='black'>首页</a>
+                </li>		       
+			    <li class="detailfooter_gwc"><a href="" class='black' >购物车</a></li>  -->
+			    <li class="detailfooter_addgwc"><a href="" class="white gwc"  @click.prevent="showModel()">加入购物车</a></li> 
+			    <li class="detailfooter_shop"><a href="" class="white buy">立刻购买</a></li> 
 
        		</ul>
 	   	</div>
 	   	</div>
 	   	<div class="top-model" v-show="isBol">
+	   		<div class="close">
+	   			<span class="pop-icon-close"></span>
+	   		</div>
 	   		<div class="model_inner">
+	   			<div class="buy-show">
+	   				<div class="buy-show-img">
+	   					<img src="http://i8.mifile.cn/v1/a1/7184e8a3-3097-5120-e0b1-d8718b0ba901.webp" alt="" class="show-img">
+	   				</div>
+	   				<div class="buy-show-ct">
+	   					<div class="ct_price">￥1999</div>
+	   					<div class="ct_desc">小米5s</div>
+	   				</div>
+	   			</div>
+	   			<div class="colorSelect">
+	   				<div class="color_tit">颜色</div>
+	   				<div class="color_ct">
+	   					<div class="color_ct_inner">
+	   						<div class="self">
+	   							<img src="http://i8.mifile.cn/v1/a1/5a1375df-1f5e-afe9-6e39-7733404cf76a!80x80.jpg" alt=""
+	   							>
+	   							哑光金色
+	   						</div>
+	   						<div class="self">
+	   							<img src="http://i8.mifile.cn/v1/a1/5a1375df-1f5e-afe9-6e39-7733404cf76a!80x80.jpg" alt=""
+	   							>哑光银白
+	   						</div>
+	   					</div>
+	   					<div class="color_ct_inner">
+	   						<div class="self">
+	   							<img src="http://i8.mifile.cn/v1/a1/5a1375df-1f5e-afe9-6e39-7733404cf76a!80x80.jpg" alt=""
+	   							>
+	   						哑光深灰
+	   						</div>
+	   						<div class="self">
+	   							<img src="http://i8.mifile.cn/v1/a1/5a1375df-1f5e-afe9-6e39-7733404cf76a!80x80.jpg" alt=""
+	   							>
+	   							玫瑰金
+	   						</div>
+	   					</div>
+	   				</div>
+	   			</div>
+	   			<div class="capacity">
+	   				<div class="capacity_tit">容量</div>
+	   				<div class="capacity_ct">64GB</div>
+	   			</div>
 	   			<div class="specBuy flex-row bb">
 	   				<div class="specTitle">购买数量
 	   				</div>
 	   				<div class="addNum">
-	   					<div class="sub">
+	   					<div class="sub" @click="clickSubfun(pro)">
 		   					<div class="input-sub off">
 		   						
 		   					</div>
 	   					</div>
-	   					<div class="num input-num">1</div>
-	   					<div class="add">
+	   					<div class="num input-num">{{showNum}}</div>
+	   					<div class="add" @click="clickAddfun(pro)">
 	   						<div class="input-add"></div>
 	   					</div>
 	   				</div>
@@ -64,7 +111,7 @@
 
 </template>
 <script>
-import Vue from "vue"
+    import Vue from "vue"
 	import VueResource from "vue-resource"
 	import Swiper from "../../static/swiper/js/swiper.min.js"
 	import Bus from "../../static/js/bus.js"
@@ -73,16 +120,35 @@ import Vue from "vue"
 		data (){
 			return {			 
 			  proDetailData:[],
-			  pro:Bus.todos,
-			  isBol:false			 
+              pro:Bus.todos,
+              isBol:false,
+              showNum:1,
+              shopmoney:0   			 
 			}
 		},
 		methods:{
 			showModel:function(){
-				this.isBol=!this.isBol;
-			}
+                this.isBol=!this.isBol;
+            },
+            clickAddfun:function(a){
+                this.showNum+=1;
+                Bus.$emit("addshop",a)
+                console.log(Bus.cartData)
+            },
+            clickSubfun:function(b){
+                this.showNum-=1;
+                Bus.$emit("deleshop",b)
+                console.log(Bus.cartData);
+                console.log(this.showNum)
+                if(this.showNum<1){
+                    this.showNum=1
+                }
+            }
+
 		},		
-		mounted (){
+		mounted (){			
+			this.pro = Bus.todos;
+			console.log(3,this.pro)
 		//请求数据
 		this.$http.get("../../static/json/proView.json").then(function(res){
 			this.proDetailData=res.data.data.sections[9].body.items;
@@ -102,11 +168,9 @@ import Vue from "vue"
 		
 	}		
 	}
-	
-	
-
 </script>
 <style>
+
 .proDetail-view .fixed-header {
     position: absolute;
     top: 0;
@@ -163,6 +227,7 @@ import Vue from "vue"
 .proDetail-view .detailInfo{
     width: 100%;
     padding:1rem 1rem;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -196,31 +261,11 @@ import Vue from "vue"
     color:#000;
 }
 
-.proDetail-view .detailFooter ul{
-  width: 100%;
-  display: flex;
-  justify-content:space-around; 
-}
-.proDetail-view .detailFooter ul li{
-  height: 4.5rem;
-  list-style: none;
-  font-size: 1.2rem;
-  display: flex;
-  align-items:center;
-  justify-content:center;
 
-}
-.proDetail-view .detailFooter ul li .black{
-  color:black;
-}
-.proDetail-view .detailFooter ul li .white{
-  color:red;
-  font-size: 2rem;
-}
 .proDetail-view .top-model{
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.3);
+    background: rgba(0,0,0,.6);
     margin-bottom:5rem;
     position: absolute;
     left: 0;
@@ -233,20 +278,96 @@ import Vue from "vue"
     left: 0;
     background: #fff;
     width: 100%;
-    height: 5rem;
+    height: 40rem;
+    padding:0 1rem;
+    box-sizing: border-box;
 }
-.proDetail-view .specBuy {
+.proDetail-view .buy-show{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.proDetail-view .show-img{
+    width:10rem;
+    height: 10rem;
+}
+.proDetail-view .buy-show-ct{
+    margin-left: 1rem;
+    
+}
+.proDetail-view .buy-show-ct .ct_price{
+    font-size: 2rem;
     height: 3rem;
-    justify-content: space-between!important;
-    -webkit-box-pack: justify!important;
-    box-pack: justify!important;
+    line-height: 3rem;
+    color:#f56600;
+}
+.proDetail-view .buy-show-ct .ct_desc{
+    font-size: 1.5rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.proDetail-view .colorSelect{
+    width: 100%;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    border-bottom:1px solid #eee;
+    padding-bottom: .5rem;
+}
+.proDetail-view .color_tit{
+    height: 2rem;
+    line-height: 2rem;
+    padding: .5rem 0;
+}
+.proDetail-view .color_ct{
+     width: 80%;
+    display: flex;
+    justify-content: column;
+}
+.proDetail-view .color_ct_inner{  
+    justify-content: space-between;
+}
+.proDetail-view .color_ct_inner .self{
+    border:1px solid #f4f4f4;
+    padding: .8rem 1.5rem;
+    margin:.5rem 1rem 1rem 0;
+    font-size: 1.3rem;
+}
+.proDetail-view .self>img{
+    width: 1.5rem;
+    height: 1.5rem;
+    float: left;
+}
+.proDetail-view .capacity{
+    font-size: 1.5rem;
+}
+.proDetail-view .capacity_tit{
+    padding: 1rem 0;
+}
+.proDetail-view .capacity_ct{
+    width: 3rem;
+    border:1px solid #f4f4f4;
+    padding: .8rem 1rem;
+}
+
+
+.proDetail-view .specBuy {
+    width: 90%;
+    height: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 1.5rem 1rem;
+    position: absolute;
+    bottom:4.5rem;
+    left: 0;
 }
 .proDetail-view .specTitle {
     margin-top: 1rem;
     margin-bottom: 1.4rem;
     line-height: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgba(0,0,0,.87);
     float: left;
 }
@@ -289,13 +410,58 @@ import Vue from "vue"
     background-size: 40%;
 }
 .proDetail-view .sure{
+    width: 100%;
     height: 4.5rem;
     line-height: 4.5rem;
     background: #f95b07;
     color:#fff;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    position: absolute;
+    bottom:0;
+    left: 0;
 }
 
+.proDetail-view .detailFooter ul{
+  width: 100%;
+  display: flex;
+  justify-content:flex-end; 
+  position: fixed;
+  bottom:0;
+  left: 0;
+  z-index: 500;
+}
+.proDetail-view .detailFooter ul li{
+  height: 4.5rem;
+  list-style: none;
+  font-size: 1.2rem;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+
+}
+.proDetail-view .detailFooter ul li .black{
+  color:black;
+  display: block;
+  padding: 0 1.6rem;
+}
+.proDetail-view .detailFooter ul li .white{
+  color:#fff;
+  font-size: 2rem;
+  display: block;
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 1rem;
+}
+
+.white.gwc{
+  background: #f90;
+  color: #fff;
+
+}
+.white.buy{
+  background: #f95b07;
+}
 	
 </style>

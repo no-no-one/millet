@@ -211,9 +211,6 @@
 			.opacity-enter,.opacity-leave-active{
 				opacity: 0;
 			}
-img{
-	display: block;
-}
 header{
 	width: 100%;
 	height: 3.5rem;
