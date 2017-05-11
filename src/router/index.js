@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
 import Home from '@/components/Home'
 import Mine from '@/components/Mine'
 import Market from '@/components/Market'
@@ -13,7 +12,6 @@ import channel from '@/components/channel'
 import NewPaper from '@/components/NewPaper'
 import NewPro from '@/components/NewPro'
 import ProDetail from '@/components/ProDetail'
-<<<<<<< HEAD
 import Indent from '@/components/Indent'
 import Record from '@/components/Record'
 import Privilege from '@/components/Privilege'
@@ -22,8 +20,6 @@ import Set from '@/components/Set'
 import Family from '@/components/Family'
 import Familys from '@/components/Familys'
 import Enter from '@/components/Enter'
-=======
->>>>>>> cart
 Vue.use(Router)
 
 export default new Router({
@@ -32,7 +28,8 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home
-    },{
+    },
+    {
     	path:"/mine",
     	component:Mine
     },{
@@ -43,18 +40,6 @@ export default new Router({
     	component:Cart
     },
     {
-      path:"/market/channel",
-      component:channel
-    },{
-      path:"/home/newPaper",
-      component:NewPaper
-    },{
-      path:"/home/newProduct",
-      component:NewPro
-    },{
-      path:"/home/proDetail",
-      component:ProDetail
-    },{
       path:"/market/channel",
       component:channel
     },{

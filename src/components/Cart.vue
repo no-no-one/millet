@@ -12,7 +12,6 @@
         </li>
       </ul>
     </div>
-    <!-- 每增加之前 -->
     <div class="cart_mian" v-if="isShow">
       <div class="cart_go">
         <router-link to="/">
@@ -74,7 +73,7 @@
           <router-link to="/">去结算</router-link>
         </div>
       </div>
-    </div> 
+    </div>   
   </div>
 </template>
 <script>
@@ -96,7 +95,6 @@ export default{
     //请求页面数据
     this.$http.get("../../static/cart.json")
     .then(function(response){
-      console.log(response.body.data.recom_list)
       this.itemData =response.body.data.recom_list
     })
     if(this.getHomeData.length==0){

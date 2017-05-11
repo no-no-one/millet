@@ -133,10 +133,10 @@
 	.page .headers img{
 	    width: 4.5rem;
 	    height: 4.5rem;
-	    margin:1rem 0 0 2rem;
+	    margin:2rem 0 0 2rem;
 	}
 	.page .headers span{
-		margin:1rem 0 0 1.5rem;
+		margin:4rem 0 0 1.5rem;
 	}
 	.page .headers span a{
 	    color: white;

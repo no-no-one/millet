@@ -2,38 +2,25 @@ import Vue from "vue"
  var Bus = new Vue({
  	data:function(){
  		return {
-<<<<<<< HEAD
- 			todos:{}
-=======
  			todos:{},
  			cartData:[],
  			isShow:true,
  			ShowData:[],
  			money:0
->>>>>>> cart
  		}
  	},
  	// 创建钩子监听add事件
  	created:function(){
  		this.$on("add",this.addTodo)
-<<<<<<< HEAD
- 	},
- 	beforeDestroy:function(){
- 		this.$off("add",this.addTodo);
-=======
  		this.$on("addshop",this.shopadd)
  	},
  	beforeDestroy:function(){
  		this.$off("add",this.addTodo);
  		this.$off("deleshop",this.shopdele)
->>>>>>> cart
  	},
  	methods:{
  		addTodo:function(newTodo){
  			this.todos= newTodo
-<<<<<<< HEAD
- 		}
-=======
  			this.isShow = false
  		},
  		shopadd:function(item){
@@ -94,7 +81,6 @@ import Vue from "vue"
             }
         // item.count--;
         // console.log(item.count)
->>>>>>> cart
  	}
  })
  export default Bus
